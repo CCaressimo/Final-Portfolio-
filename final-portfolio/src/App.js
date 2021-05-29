@@ -4,20 +4,24 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact"
+import NavBar from "./components/NavBar"
+import { NavLink } from "react-bootstrap";
 
 function App() {
-  return 
+  return (
   <BrowserRouter>
+  <NavBar />
     <switch>
       <Route component={Home} path='/' exact/>
       <Route component={About} path='/about' />
       <Route component={Projects} path='/projects' />
       <Route component={Skills} path='/skills' />
       <Route component={Contact} path='/contact' />
-      <Route component={} path='' />
+      {/* <Route component={} path='' /> */}
 
     </switch>
   </BrowserRouter>
+  )
 }
 
 export default App;
