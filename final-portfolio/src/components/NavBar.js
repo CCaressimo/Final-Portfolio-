@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
 
-export default function NavBar() {
+export default function NavBar({toggle}) {
   return (
     <header>
       <div>
@@ -15,7 +15,7 @@ export default function NavBar() {
             CC
           </NavLink>
 
-          <div className="px-4.cursor-pointer md:hidden">
+          <div className="px-4.cursor-pointer md:hidden" onClick={toggle}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
