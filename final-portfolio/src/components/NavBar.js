@@ -1,66 +1,81 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
-import { SocialIcon } from "react-social-icons"
 
 export default function NavBar() {
   return (
-    <header className="bg-red-600">
-      <div className="container mx-auto flex justify-between">
-        <nav className="flex">
+    <header>
+      <div>
+        <nav className="flex justify-between items-center h-16 bg-black relative shadow-sm font-mono">
           <NavLink
             to="/"
             exact
-            activeClassName="text-white"
-            className="inline-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-2xl font-bold mukta tracking-widest"
+            activeClassName="text-gray-300"
+            className="inflex-flex items-center py-6 px-3 rounded text-yellow-700 hover:text-green-800 text-4xl font-bold mukta tracking-widest"
           >
             CC
           </NavLink>
-          <NavLink
-            to="/about"
-            activeClassName="text-red-100 bg-red-400"
-            className="inline-flex items-center py-3 px-3 my-4 rounded text-red-200 hover:text-green-800"
-          >
-            About Me
-          </NavLink>
-          <NavLink
-            to="/projects"
-            activeClassName="text-red-100 bg-red-400"
-            className="inline-flex items-center py-3 px-3 my-4 rounded text-red-200 hover:text-green-800"
-          >
-            Projects
-          </NavLink>
-          <NavLink
-            to="skills"
-            activeClassName="text-red-100 bg-red-400"
-            className="inline-flex items-center py-3 px-3 my-4 rounded text-red-200 hover:text-green-800"
-          >
-            Skills
-          </NavLink>
-          <NavLink
-            to="contact"
-            activeClassName="text-red-100 bg-red-400"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
-          >
-            Contact Me
-          </NavLink>
-        </nav>
-        <div className="inline-flex py-3 px-3 my-4">
-          <SocialIcon
-            url="https://github.com/CCaressimo"
-            className="mr-4"
-            target="_blank"
-            fgColor="#fff"
-            style={{ height: 35, width: 35 }}
-          />
-          <SocialIcon
-            url="https://www.linkedin.com/in/christopher-c-b9885a82/"
-            className="mr-4"
-            target="_blank"
-            fgColor="#fff"
-            style={{ height: 35, width: 35 }}
-          />
 
-        </div>
+          <div className="px-4.cursor-pointer md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="orange"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </div>
+          <div className="pr-8 md:block hidden">
+            <NavLink
+              to="/about"
+              activeClassName="text-red-200 bg-gray-800"
+              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+            >
+              About Me
+            </NavLink>
+            <NavLink
+              to="/projects"
+              activeClassName="text-white bg-gray-800"
+              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+            >
+              Projects
+            </NavLink>
+            <NavLink
+              to="/skills"
+              activeClassName="text-white bg-gray-800"
+              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+            >
+              Skills
+            </NavLink>
+            <NavLink
+              to="/contact"
+              activeClassName="text-white bg-gray-800"
+              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+            >
+              Contact Me
+            </NavLink>
+            <a
+              href="https://github.com/CCaressimo"
+              target="_blank"
+              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+            >
+              Github
+            </a>
+            <a
+              href="https://www.linkedin.com/in/christopher-c-b9885a82/"
+              target="_blank"
+              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </nav>
       </div>
     </header>
   );
