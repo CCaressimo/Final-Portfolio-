@@ -4,7 +4,18 @@ export default function Contact() {
   return (
     <main class="bg-gray-600 font-sans leading-normal tracking-normal">
       <section class="bg-gray-200 font-sans leading-normal tracking-normal">
-        <form class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
+        <form class="container max-w-4xl mx-auto text-center break-normal">
+          <div class="w-full m-0 p-0 bg-cover bg-bottom">
+            <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
+              <p class="text-white font-extrabold text-3xl md:text-5xl">
+                Contact Me
+              </p>
+              <br />
+              <p class="mt-3 mb-6 text-xl md:text-2xl text-gray-500">
+                Lets get in contact!
+              </p>
+            </div>
+          </div>
           <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
               <label
@@ -50,8 +61,7 @@ export default function Contact() {
               <label
                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 for="grid-password"
-              >
-              </label>
+              ></label>
               <textarea
                 class=" no-resize appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                 id="message"

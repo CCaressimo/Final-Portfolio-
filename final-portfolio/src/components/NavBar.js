@@ -60,6 +60,13 @@ export default function NavBar({toggle}) {
             >
               Contact Me
             </NavLink>
+            <NavLink
+              to="/resume"
+              activeClassName="text-white bg-gray-800"
+              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+            >
+              Resume
+            </NavLink>
             <a
               href="https://github.com/CCaressimo"
               target="_blank"

@@ -6,9 +6,9 @@ export default function Home() {
       <main>
         <img
           src={image}
-          alt="niflheim"
+          alt="live at revolution"
           className="absolute object-cover w-full h-full"
-        /> 
+        />
         <section className="relative justify-center min-h-screen pt-12 lg:pt-64 px-20">
           <div class="container pt-24 md:pt-48 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
