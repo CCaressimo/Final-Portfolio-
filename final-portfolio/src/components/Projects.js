@@ -14,11 +14,11 @@ export default function Projects() {
       <section class="relative font-sans leading-normal tracking-normal">
         <div class="w-full m-0 p-0 bg-cover bg-bottom">
           <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
-            <p class="text-white font-extrabold text-3xl md:text-5xl">
+            <p class="text-yellow-600 font-extrabold text-3xl md:text-5xl">
               Projects
             </p>
             <br />
-            <p class="text-xl md:text-2xl text-gray-500">
+            <p class="text-xl md:text-2xl text-yellow-500">
               Feel free to checkout some of my projects that I have built during
               my time in DigitalCrafts
             </p>

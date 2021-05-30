@@ -21,48 +21,61 @@ export default function Skills() {
         className="fixed object-cover w-full h-full"
       />
 
-      <section className="relative justify-center min-h-screen pt-6 lg:pt-24 px-20">
+      <section className="relative justify-center min-h-screen pt-2 lg:pt-4 px-20">
+        <div class="w-full m-0 p-0 bg-cover bg-bottom">
+          <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
+            <p class="text-yellow-600 font-extrabold text-3xl md:text-5xl">
+              Skills
+            </p>
+            <br />
+            <p class="text-xl md:text-2xl text-yellow-500">
+              These are some of the skill I have acquired during my time as a
+              developer.
+            </p>
+          </div>
+        </div>
+
         <div class="w-full p-6 flex flex-col flex-grow flex-shrink">
           <div class="absolute flex-1 rounded-t rounded-b-none overflow-hidden shadow-lg">
-            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/2 md:w-1/6 p-7 flex flex-wrap justify-between">
               <img src={html} alt="" />
-              <p>HTML5/CSS/JS</p>
+              <p class="text-l md:text-2xl text-yellow-500">HTML5/CSS/JS</p>
             </div>
-            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={git} alt="" />
-              <p>Github</p>
+              <p class="text-l md:text-2xl text-yellow-500">Github</p>
             </div>
-            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={node} alt="" />
-              <p>Node.js</p>
+              <p class="text-l md:text-2xl text-yellow-500">Node.js</p>
             </div>
-            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/2 md:w-1/6 p-7 flex flex-wrap justify-between">
               <img src={sql} alt="" />
-              <p>SQL</p>
+              <p class="text-l md:text-2xl text-yellow-500">SQL</p>
             </div>
-            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={express} alt="" />
-              <p>Express.js</p>
+              <p class="text-l md:text-2xl text-yellow-500">Express.js</p>
             </div>
-            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={sequelize} alt="" />
-              <p>Sequelize</p>
+              <p class="text-l md:text-2xl text-yellow-500">Sequelize</p>
             </div>
-            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={react} alt="" />
-              <p>React</p>
+              <p class="text-l md:text-2xl text-yellow-500">React</p>
             </div>
-            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={redux} alt="" />
-              <p>Redux</p>
+              <p class="text-l md:text-2xl text-yellow-500">Redux</p>
             </div>
-            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={bootstrap} alt="" />
-              <p>Bootstrap</p>
+              <p class="text-l md:text-2xl text-yellow-500">Bootstrap</p>
             </div>
-            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={tailwind} alt="" />
-              <p>Tailwind</p>
+              <p class="text-l md:text-2xl text-yellow-500">Tailwind</p>
             </div>
           </div>
         </div>
