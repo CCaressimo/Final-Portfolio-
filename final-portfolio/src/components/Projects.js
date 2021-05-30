@@ -25,10 +25,7 @@ export default function Projects() {
           <div class="flex flex-wrap justify-between pt-36 -mx-6">
             <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
               <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-                <a
-                  href="#"
-                  class="max-w-sm rounded overflow-hidden shadow-lg"
-                >
+                <a href="#" class="max-w-sm rounded overflow-hidden shadow-lg">
                   <img src="#" class="h-64 w-full rounded-t pb-6" />
                   <div class="w-full font-bold text-xl text-gray-900 px-6">
                     Game
@@ -37,13 +34,17 @@ export default function Projects() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   </p>
-                  <div className="justify-center">
-                    <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                      GitHub
-                    </button>
-                    <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                      Live
-                    </button>
+                  <div className="w-full flex justify-center pb-4 content-center">
+                    <a href="https://github.com/CCaressimo" target="_blank">
+                      <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        GitHub
+                      </button>
+                    </a>
+                    <a href="https://github.com/CCaressimo" target="_blank">
+                      <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        Live App
+                      </button>
+                    </a>
                   </div>
                 </a>
               </div>
@@ -63,6 +64,18 @@ export default function Projects() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   </p>
+                  <div className="w-full flex justify-center pb-4 content-center">
+                    <a href="https://github.com/CCaressimo" target="_blank">
+                      <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        GitHub
+                      </button>
+                    </a>
+                    <a href="https://github.com/CCaressimo" target="_blank">
+                      <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        Live App
+                      </button>
+                    </a>
+                  </div>
                 </a>
               </div>
             </div>
@@ -81,6 +94,18 @@ export default function Projects() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   </p>
+                  <div className="w-full flex justify-center pb-4 content-center">
+                    <a href="https://github.com/CCaressimo" target="_blank">
+                      <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        GitHub
+                      </button>
+                    </a>
+                    <a href="https://github.com/CCaressimo" target="_blank">
+                      <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        Live App
+                      </button>
+                    </a>
+                  </div>
                 </a>
               </div>
             </div>
@@ -99,6 +124,18 @@ export default function Projects() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   </p>
+                  <div className="w-full flex justify-center pb-4 content-center">
+                    <a href="https://github.com/CCaressimo" target="_blank">
+                      <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        GitHub
+                      </button>
+                    </a>
+                    <a href="https://github.com/CCaressimo" target="_blank">
+                      <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        Live App
+                      </button>
+                    </a>
+                  </div>
                 </a>
               </div>
             </div>
@@ -117,6 +154,18 @@ export default function Projects() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   </p>
+                  <div className="w-full flex justify-center pb-4 content-center">
+                    <a href="https://github.com/CCaressimo" target="_blank">
+                      <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        GitHub
+                      </button>
+                    </a>
+                    <a href="https://github.com/CCaressimo" target="_blank">
+                      <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                        Live App
+                      </button>
+                    </a>
+                  </div>
                 </a>
               </div>
             </div>
