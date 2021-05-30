@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 
 export default function NavBar({toggle}) {
   return (
-    <header>
+    <header className="sticky top-0 z-50">
       <div>
         <nav className="flex justify-between items-center h-16 bg-black relative shadow-sm font-mono">
           <NavLink

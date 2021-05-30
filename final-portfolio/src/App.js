@@ -9,7 +9,6 @@ import Resume from "./components/Resume"
 import NavBar from "./components/NavBar"
 import Dropdown from "./components/Dropdown"
 
-
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 

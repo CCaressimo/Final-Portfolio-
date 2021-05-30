@@ -1,9 +1,16 @@
 import React from "react";
+import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
 
 export default function Contact() {
   return (
     <main class="bg-gray-600 font-sans leading-normal tracking-normal">
-      <section class="bg-gray-200 font-sans leading-normal tracking-normal">
+      <img
+        src={image}
+        alt="live at revolution"
+        className="fixed object-cover w-full h-full"
+      />
+
+      <section class="relative bg-opacity-20 bg-gray-200 rounded-b overflow-hidden shadow-lg font-sans leading-normal tracking-normal">
         <form class="container max-w-4xl mx-auto text-center break-normal">
           <div class="w-full m-0 p-0 bg-cover bg-bottom">
             <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">

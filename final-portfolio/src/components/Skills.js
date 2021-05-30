@@ -1,14 +1,14 @@
 import React from "react";
 import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
-import html from "../images/440-4409582_rather-th-html-css-js-icon-png.png";
-import git from "../images/kissclipart-computer-icons-github-scalable-vector-graphics-02cf61b9c12df0dc.png";
-import node from "../images/kisspng-node-js-javascript-express-js-mongodb-github-node-js-5b224f65cc4628.8571491215289752058367.jpg";
-import sql from "../images/243-2432711_azure-sql-database-icon.png";
-import express from "../images/136-1363736_express-js-icon-png-transparent-png.png";
-import sequelize from "../images/kisspng-postgresql-object-relational-database-oracle-datab-portfolio-whitebolt-whitebolt-5b65f8213f29d6.5042016815334093132587.jpg";
-import react from "../images/react-middle.png";
-import redux from "../images/kisspng-redux-react-javascript-vue-js-single-page-applicat-5af5cde3d3a5e8.2671715915260584678669.jpg";
-import bootstrap from "../images/217-2172365_bootstrap-featured-image-bootstrap-3-logo-png-clipart.png";
+import html from "../images/Daco_4562887.png";
+import git from "../images/2560px-Git-logo.svg.png";
+import node from "../images/590px-Node.js_logo.svg.png";
+import sql from "../images/pngwing.com.png";
+import express from "../images/express-js-png-5.png";
+import sequelize from "../images/sequelize-logo-png-transparent.png";
+import react from "../images/1280px-React-icon.svg.png";
+import redux from "../images/redux-logo-svg-vector.svg";
+import bootstrap from "../images/Bootstrap_logo.svg.png";
 import tailwind from "../images/tailwind-css-logo.svg";
 
 
@@ -18,40 +18,51 @@ export default function Skills() {
       <img
         src={image}
         alt="live at revolution"
-        className="absolute object-cover w-full h-full"
+        className="fixed object-cover w-full h-full"
       />
-      <section className="relative justify-center min-h-screen pt-12 lg:pt-64 px-20">
-        <div class="w-full  p-6 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 rounded-t rounded-b-none overflow-hidden shadow-lg">
-            <div class="flex flex-wrap justify-between pt-36 -mx-6">
+
+      <section className="relative justify-center min-h-screen pt-6 lg:pt-24 px-20">
+        <div class="w-full p-6 flex flex-col flex-grow flex-shrink">
+          <div class="absolute flex-1 rounded-t rounded-b-none overflow-hidden shadow-lg">
+            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={html} alt="" />
+              <p>HTML5/CSS/JS</p>
             </div>
-            <div class="flex flex-wrap justify-between pt-36 -mx-6">
+            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={git} alt="" />
+              <p>Github</p>
             </div>
-            <div class="flex flex-wrap justify-between pt-36 -mx-6">
+            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={node} alt="" />
+              <p>Node.js</p>
             </div>
-            <div class="flex flex-wrap justify-between pt-36 -mx-6">
+            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={sql} alt="" />
+              <p>SQL</p>
             </div>
-            <div class="flex flex-wrap justify-between pt-36 -mx-6">
+            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={express} alt="" />
+              <p>Express.js</p>
             </div>
-            <div class="flex flex-wrap justify-between pt-36 -mx-6">
+            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={sequelize} alt="" />
+              <p>Sequelize</p>
             </div>
-            <div class="flex flex-wrap justify-between pt-36 -mx-6">
+            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={react} alt="" />
+              <p>React</p>
             </div>
-            <div class="flex flex-wrap justify-between pt-36 -mx-6">
+            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={redux} alt="" />
+              <p>Redux</p>
             </div>
-            <div class="flex flex-wrap justify-between pt-36 -mx-6">
+            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={bootstrap} alt="" />
+              <p>Bootstrap</p>
             </div>
-            <div class="flex flex-wrap justify-between pt-36 -mx-6">
+            <div class="w-full md:w-1/6 p-6 flex flex-wrap justify-between">
               <img src={tailwind} alt="" />
+              <p>Tailwind</p>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ export default function Home() {
         <img
           src={image}
           alt="live at revolution"
-          className="absolute object-cover w-full h-full"
+          className="fixed object-cover w-full h-full"
         />
         <section className="relative justify-center min-h-screen pt-12 lg:pt-64 px-20">
           <div class="container pt-24 md:pt-48 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
