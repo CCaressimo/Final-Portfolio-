@@ -12,8 +12,8 @@ export default function Projects() {
       />
 
       <section class="relative font-sans leading-normal tracking-normal">
-        <div class="w-full m-0 p-0 bg-cover bg-bottom">
-          <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
+        <div class="w-full m-0 pt-0 bg-cover bg-bottom">
+          <div class="container max-w-4xl mx-auto pt-18 md:pt-4 text-center break-normal">
             <p class="text-yellow-600 font-extrabold text-3xl md:text-5xl">
               Projects
             </p>
@@ -26,9 +26,10 @@ export default function Projects() {
         </div>
 
         <div class="container bg-opacity-20 bg-gray-200 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+
           <div class="flex h-full bg-white overflow-hidden shadow-lg"></div>
 
-          <div class="flex flex-wrap justify-between pt-36 -mx-6">
+          <div class="flex flex-wrap justify-between pt-36">
             <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
               <div class="flex-1 bg-opacity-70 bg-black rounded-t rounded-b overflow-hidden shadow-lg">
                 <a href="#" class="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg">
