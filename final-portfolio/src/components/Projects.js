@@ -28,19 +28,25 @@ export default function Projects() {
                 <a href="#" class="max-w-sm rounded overflow-hidden shadow-lg">
                   <img src="#" class="h-64 w-full rounded-t pb-6" />
                   <div class="w-full font-bold text-xl text-gray-900 px-6">
-                    Game
+                    Concentration
                   </div>
                   <p class="text-gray-800 font-serif text-base px-6 mb-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   </p>
                   <div className="w-full flex justify-center pb-4 content-center">
-                    <a href="https://github.com/CCaressimo" target="_blank">
+                    <a
+                      href="https://github.com/CCaressimo/Concentration-Game"
+                      target="_blank"
+                    >
                       <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                         GitHub
                       </button>
                     </a>
-                    <a href="https://github.com/CCaressimo" target="_blank">
+                    <a
+                      href="https://ccaressimo.github.io/Concentration-Game/"
+                      target="_blank"
+                    >
                       <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                         Live App
                       </button>
@@ -65,12 +71,18 @@ export default function Projects() {
                     Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   </p>
                   <div className="w-full flex justify-center pb-4 content-center">
-                    <a href="https://github.com/CCaressimo" target="_blank">
+                    <a
+                      href="https://github.com/CCaressimo/Front-End"
+                      target="_blank"
+                    >
                       <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                         GitHub
                       </button>
                     </a>
-                    <a href="https://github.com/CCaressimo" target="_blank">
+                    <a
+                      href="https://ccaressimo.github.io/Front-End/"
+                      target="_blank"
+                    >
                       <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                         Live App
                       </button>
@@ -95,12 +107,15 @@ export default function Projects() {
                     Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                   </p>
                   <div className="w-full flex justify-center pb-4 content-center">
-                    <a href="https://github.com/CCaressimo" target="_blank">
+                    <a
+                      href="https://github.com/CCaressimo/Mixafy"
+                      target="_blank"
+                    >
                       <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                         GitHub
                       </button>
                     </a>
-                    <a href="https://github.com/CCaressimo" target="_blank">
+                    <a href="https://mixafy.herokuapp.com" target="_blank">
                       <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                         Live App
                       </button>
@@ -130,7 +145,7 @@ export default function Projects() {
                         GitHub
                       </button>
                     </a>
-                    <a href="https://github.com/CCaressimo" target="_blank">
+                    <a href="#" target="_blank">
                       <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                         Live App
                       </button>
@@ -160,7 +175,7 @@ export default function Projects() {
                         GitHub
                       </button>
                     </a>
-                    <a href="https://github.com/CCaressimo" target="_blank">
+                    <a href="#" target="_blank">
                       <button class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                         Live App
                       </button>
