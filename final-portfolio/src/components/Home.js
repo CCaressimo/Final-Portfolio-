@@ -1,5 +1,5 @@
 import React from "react"
-import image from "../images/niflheim-1080P-wallpaper.jpg";
+import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
 
 export default function Home() {
     return (

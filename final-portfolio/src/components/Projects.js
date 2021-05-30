@@ -19,8 +19,8 @@ export default function Projects() {
           </div>
         </div>
 
-        <div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
-          <div class="flex h-full bg-white rounded overflow-hidden shadow-lg"></div>
+        <div class="container border rounded px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+          <div class="flex h-full bg-white overflow-hidden shadow-lg"></div>
 
           <div class="flex flex-wrap justify-between pt-36 -mx-6">
             <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
