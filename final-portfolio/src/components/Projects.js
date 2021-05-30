@@ -4,30 +4,124 @@ import React from "react";
 export default function Projects() {
 
   return (
-    <main className="bg-gray-200 min-h-screen p-12">
-      <section className="container mx-auto">
-        <h1 className="text-5xl flex text-black justify-center">Projects</h1>
-        <h3 className="text-lg text-black flex justify-center mb-12">
-          Come check out some of the projects I have built during my time in
-          DigitalCrafts! There will be links for both the live site and Github
-          repository.
-        </h3>
-        <section className="grid grid-cols-2 gap-8">
-          <article className="relative rounded-lg shadow-xl bg-black p-16">
-            <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-yellow-500">
-              <a href="" alt="" target="_blank" rel="noopener noreferrer">
-                
-              </a>
-            </h3>
-            <div>
-              <span></span>
-              <span></span>
-              <span></span>
-              <p></p>
-              <span></span>
+    <main class="bg-gray-200 font-sans leading-normal tracking-normal">
+      <section class="bg-gray-200 font-sans leading-normal tracking-normal">
+        <div class="w-full m-0 p-0 bg-cover bg-bottom">
+          <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
+            <p class="text-white font-extrabold text-3xl md:text-5xl">
+              Projects
+            </p>
+            <br />
+            <p class="text-xl md:text-2xl text-gray-500">
+              Feel free to checkout some of my projects that I have built during
+              my time in DigitalCrafts
+            </p>
+          </div>
+        </div>
+
+        <div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+          <div class="flex h-full bg-white rounded overflow-hidden shadow-lg"></div>
+
+          <div class="flex flex-wrap justify-between pt-36 -mx-6">
+            <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+              <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                <a
+                  href="#"
+                  class="max-w-sm rounded overflow-hidden shadow-lg"
+                >
+                  <img src="#" class="h-64 w-full rounded-t pb-6" />
+                  <div class="w-full font-bold text-xl text-gray-900 px-6">
+                    Game
+                  </div>
+                  <p class="text-gray-800 font-serif text-base px-6 mb-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                  </p>
+                  <div className="justify-center">
+                    <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                      GitHub
+                    </button>
+                    <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                      Live
+                    </button>
+                  </div>
+                </a>
+              </div>
             </div>
-          </article>
-        </section>
+
+            <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+              <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                <a
+                  href="#"
+                  class="flex flex-wrap no-underline hover:no-underline"
+                >
+                  <img src="#" class="h-64 w-full rounded-t pb-6" />
+                  <div class="w-full font-bold text-xl text-gray-900 px-6">
+                    MEME Kanye
+                  </div>
+                  <p class="text-gray-800 font-serif text-base px-6 mb-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+              <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                <a
+                  href="#"
+                  class="flex flex-wrap no-underline hover:no-underline"
+                >
+                  <img src="#" class="h-64 w-full rounded-t pb-6" />
+                  <div class="w-full font-bold text-xl text-gray-900 px-6">
+                    Mixafy
+                  </div>
+                  <p class="text-gray-800 font-serif text-base px-6 mb-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+              <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                <a
+                  href="#"
+                  class="flex flex-wrap no-underline hover:no-underline"
+                >
+                  <img src="#" class="h-64 w-full rounded-t pb-6" />
+                  <div class="w-full font-bold text-xl text-gray-900 px-6">
+                    React Project
+                  </div>
+                  <p class="text-gray-800 font-serif text-base px-6 mb-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+              <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                <a
+                  href="#"
+                  class="flex flex-wrap no-underline hover:no-underline"
+                >
+                  <img src="#" class="h-64 w-full rounded-t pb-6" />
+                  <div class="w-full font-bold text-xl text-gray-900 px-6">
+                    Capstone
+                  </div>
+                  <p class="text-gray-800 font-serif text-base px-6 mb-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
