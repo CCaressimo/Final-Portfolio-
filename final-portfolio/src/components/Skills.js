@@ -21,9 +21,8 @@ export default function Skills() {
         className="fixed object-cover w-full h-full"
       />
 
-      <section className="relative justify-center min-h-screen pt-2 lg:pt-4 px-20">
-
-        <div class="w-full p-32 flex flex-col flex-grow flex-shrink">
+      <section className="relative justify-center min-h-screen">
+        <div class="w-full pt-32 flex flex-col flex-grow flex-shrink">
           <div class="container bg-opacity-20 bg-gray-200 rounded-t rounded-b px-auto md:px-0 max-w-6xl mx-auto -mt-32">
             <div class="w-full m-0 p-0 bg-cover bg-bottom">
               <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
@@ -32,49 +31,49 @@ export default function Skills() {
                 </p>
                 <br />
                 <p class="text-xl md:text-2xl text-yellow-500">
-                  These are some of the skill I have acquired during my time as a
-                  developer.
+                  These are some of the skill I have acquired during my time as
+                  a developer.
                 </p>
               </div>
             </div>
 
-            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={html} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">HTML5/CSS/JS</p>
             </div>
-            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={git} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">Github</p>
             </div>
-            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={node} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">Node.js</p>
             </div>
-            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={sql} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">SQL</p>
             </div>
-            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={express} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">Express.js</p>
             </div>
-            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={sequelize} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">Sequelize</p>
             </div>
-            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={react} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">React</p>
             </div>
-            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={redux} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">Redux</p>
             </div>
-            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={bootstrap} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">Bootstrap</p>
             </div>
-            <div class="w-1/2 md:w-1/6 p-6 flex flex-wrap justify-between">
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={tailwind} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">Tailwind</p>
             </div>
