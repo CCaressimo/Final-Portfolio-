@@ -14,11 +14,11 @@ export default function Contact() {
         <form class="container max-w-4xl mx-auto text-center break-normal">
           <div class="w-full m-0 p-0 bg-cover bg-bottom">
             <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
-              <p class="text-white font-extrabold text-3xl md:text-5xl">
+              <p class="text-yellow-600 font-extrabold text-3xl md:text-5xl">
                 Contact Me
               </p>
               <br />
-              <p class="mt-3 mb-6 text-xl md:text-2xl text-gray-500">
+              <p class="mt-3 mb-6 text-xl md:text-2xl text-yellow-500">
                 Lets get in contact!
               </p>
             </div>
