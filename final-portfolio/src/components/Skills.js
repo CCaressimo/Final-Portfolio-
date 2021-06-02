@@ -12,7 +12,7 @@ import bootstrap from "../images/Bootstrap_logo.svg.png";
 import tailwind from "../images/tailwind-css-logo.svg";
 
 
-export default Skills = () => {
+export default function Skills() {
   return (
     <main>
       <img
