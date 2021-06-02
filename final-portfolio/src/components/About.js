@@ -4,7 +4,7 @@ import orange from "../images/46512189_1970289146363881_2740894488737087488_n.jp
 import reino from "../images/52417159_2096866167039511_8291758574829305856_n.jpg";
 import glitch from "../images/108210827_3108775749181876_6581662062906601626_n.jpg";
 
-export default function About() {
+export default About = () => {
   return (
     <main>
       <img

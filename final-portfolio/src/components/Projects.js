@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
 
-export default function Projects() {
+export default Projects = () => {
 
   return (
     <main class="bg-gray-200 font-sans leading-normal tracking-normal">

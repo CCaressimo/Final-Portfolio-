@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
 
-export default function NavBar({toggle}) {
+export default NavBar = ({toggle}) => {
   return (
     <header className="sticky top-0 z-50">
       <div>

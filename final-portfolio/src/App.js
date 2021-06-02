@@ -9,7 +9,7 @@ import Resume from "./components/Resume"
 import NavBar from "./components/NavBar"
 import Dropdown from "./components/Dropdown"
 
-function App() {
+const App = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -33,14 +33,14 @@ function App() {
     <BrowserRouter>
       <NavBar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
-      <switch>
+      <Switch>
         <Route component={Home} path="/" exact />
         <Route component={About} path="/about" />
         <Route component={Projects} path="/projects" />
         <Route component={Skills} path="/skills" />
         <Route component={Contact} path="/contact" />
-        <Route component={Resume} path="/resume" />
-      </switch>
+        <Route component={Resume} path="/resume"/>
+      </Switch>
     </BrowserRouter>
   );
 }
