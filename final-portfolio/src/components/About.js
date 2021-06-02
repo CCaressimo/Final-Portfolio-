@@ -17,15 +17,9 @@ export default function About() {
           <h1 class="mb-4 p-6 text-3xl md:text-5xl text-yellow-700 font-bold text-center md:text-center ">
             Who am I
           </h1>
-          <div className="">
-            <img
-              src={orange}
-              alt=""
-              className="object-contain h-96 w-full object-right p-6 "
-            />
-          </div>
-          <div className="container w-96 right-0 p-6">
-            <p class="leading-normal text-base md:text-2xl text-yellow-500 leading-none lg:leading-snug mb-8 text-center md:text-left slide-in-bottom-subtitle">
+
+          <div className="container inline-block p-6 ">
+            <p class="leading-normal text-base md:text-2xl text-yellow-500 leading-none lg:leading-snug text-center md:text-left slide-in-bottom-subtitle">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
               dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
@@ -34,9 +28,15 @@ export default function About() {
               commodo posuere et sit amet ligula.Lorem ipsum dolor sit amet,
               consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
               posuere et sit amet ligula.Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
-              amet ligula.
+              adipiscing elit.
             </p>
+          </div>
+          <div className="inline-block">
+            <img
+              src={orange}
+              alt=""
+              className="object-contain md:h-7/12 md:w-6/12 float-right pr-6"
+            />
           </div>
         </div>
 
@@ -47,7 +47,7 @@ export default function About() {
           <div className="object-right">
             <img src={reino} alt="" className="object-contain h-96 w-full" />
           </div>
-          <div className="container right-0 p-6">
+          <div className="container inline-block right-0 p-6">
             <p class="leading-normal text-base md:text-2xl text-yellow-500 leading-none lg:leading-snug mb-8 text-center md:text-left slide-in-bottom-subtitle">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
@@ -67,15 +67,15 @@ export default function About() {
           <h1 class="my-4 p-6 text-3xl md:text-5xl text-yellow-700 font-bold text-center md:text-center">
             Why coding?
           </h1>
-          <div className="">
+          <div className="inline-block">
             <img
               src={glitch}
               alt=""
-              className="object-contain inline-block h-96 w-full object-left p-6"
+              className="object-contain inline-block md:h-7/12 md:w-6/12 float-left pl-6 "
             />
           </div>
-          <div className="container w-96 left-0 p-6">
-            <p className="leading-normal text-base md:text-2xl text-yellow-500 leading-none lg:leading-snug mb-8 text-center md:text-left">
+          <div className="container inline-block">
+            <p className="leading-normal text-base md:text-2xl text-yellow-500 leading-none lg:leading-snug mb-8 text-center md:text-left slide-in-bottom-subtitle">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
               dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu

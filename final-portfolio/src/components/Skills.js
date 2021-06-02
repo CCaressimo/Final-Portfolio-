@@ -50,12 +50,12 @@ export default function Skills() {
               <p class="text-l md:text-2xl text-yellow-500">Node.js</p>
             </div>
             <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
-              <img src={sql} alt="" />
-              <p class="text-l md:text-2xl text-yellow-500">SQL</p>
-            </div>
-            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={express} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">Express.js</p>
+            </div>
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <img src={sql} alt="" />
+              <p class="text-l md:text-2xl text-yellow-500">SQL</p>
             </div>
             <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={sequelize} alt="" />
