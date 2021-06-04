@@ -10,7 +10,7 @@ export default function Contact() {
         className="fixed object-cover w-full h-full"
       />
 
-      <section class="relative bg-opacity-20 bg-gray-200 rounded-b overflow-hidden shadow-lg font-sans leading-normal tracking-normal">
+      <section class="relative bg-gradient-to-b from-transparent to-gray-900 rounded-b overflow-hidden shadow-lg font-sans leading-normal tracking-normal">
         <form class="container max-w-4xl mx-auto text-center break-normal">
           <div class="w-full m-0 p-0 bg-cover bg-bottom">
             <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
