@@ -17,25 +17,29 @@ export default function About() {
           <h1 class="mb-4 p-6 text-3xl md:text-5xl text-yellow-700 font-bold text-center md:text-center ">
             Who am I
           </h1>
-          <div className="inline">
-            <img
-              src={orange}
-              alt=""
-              className="object-contain inline-block md:h-7/12 md:w-6/12 p-6 "
-            />
+          <div class="md:flex justify-between">
+            <div className="overflow-auto md:w-3/5 flex items-center">
+              <img src={orange} alt="" className="p-6 " />
+            </div>
+            <div className="md:w-2/5 p-6">
+              <p className="text-base md:text-2xl text-yellow-500 mb-8 text-center md:text-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
+                nunc commodo posuere et sit amet ligula.Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc
+                commodo posuere et sit amet ligula.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
+                posuere et sit amet ligula.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
+                posuere et sit amet ligula.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
+                posuere et sit amet ligula.
+              </p>
+            </div>
           </div>
-          <div className="container inline-block md:w-96 p-6">
-            <p className="leading-normal text-base md:text-2xl text-yellow-500 leading-none lg:leading-snug mb-8 text-center md:text-left slide-in-bottom-subtitle">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
-              nunc commodo posuere et sit amet ligula.Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc
-              commodo posuere et sit amet ligula.
-            </p>
-          </div>
-          <div className="container inline-block p-6 ">
-            <p class="leading-normal text-base md:text-2xl text-yellow-500 leading-none lg:leading-snug text-center md:text-left slide-in-bottom-subtitle">
+          <div className="mb-4 p-6 p-6 text-center md:text-center">
+            <p class="text-base md:text-2xl text-yellow-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
               dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
@@ -47,7 +51,12 @@ export default function About() {
               adipiscing elit. Lorem ipsum dolor sit amet, consectetur
               adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
               amet ligula.Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit.
+              elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+              ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc
+              commodo posuere et sit amet ligula.
             </p>
           </div>
         </div>
@@ -59,8 +68,8 @@ export default function About() {
           <div className="object-right">
             <img src={reino} alt="" className="object-contain h-96 w-full" />
           </div>
-          <div className="container inline-block right-0 p-6">
-            <p class="leading-normal text-base md:text-2xl text-yellow-500 leading-none lg:leading-snug mb-8 text-center md:text-left slide-in-bottom-subtitle">
+          <div className="mb-4 p-6 p-6 text-center md:text-center">
+            <p class="text-base md:text-2xl text-yellow-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
               dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
@@ -79,25 +88,26 @@ export default function About() {
           <h1 class="my-4 p-6 text-3xl md:text-5xl text-yellow-700 font-bold text-center md:text-center">
             Why coding?
           </h1>
-          <div className="inline">
-            <img
-              src={glitch}
-              alt=""
-              className="object-contain inline-block md:h-7/12 md:w-6/12 p-6 "
-            />
+          <div class="md:flex justify-between">
+            <div className="overflow-auto md:w-3/5 flex items-center">
+              <img src={glitch} alt="" className="p-6" />
+            </div>
+            <div className="md:w-2/5 p-6">
+              <p className="text-base md:text-2xl text-yellow-500 mb-8 text-center md:text-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
+                nunc commodo posuere et sit amet ligula.Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc
+                commodo posuere et sit amet ligula. Aliquam at ipsum eu nunc
+                commodo posuere et sit amet ligula.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
+                posuere et sit amet ligula.
+              </p>
+            </div>
           </div>
-          <div className="container inline-block md:w-96 p-6">
-            <p className="leading-normal text-base md:text-2xl text-yellow-500 leading-none lg:leading-snug mb-8 text-center md:text-left slide-in-bottom-subtitle">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
-              nunc commodo posuere et sit amet ligula.Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc
-              commodo posuere et sit amet ligula.
-            </p>
-          </div>
-          <div className="container inline-block p-6">
-            <p className="leading-normal text-base md:text-2xl text-yellow-500 leading-none lg:leading-snug mb-8 text-center md:text-left slide-in-bottom-subtitle">
+          <div className="mb-4 p-6 p-6 text-center md:text-center">
+            <p class="leading-normal text-base md:text-2xl text-yellow-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
               dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
