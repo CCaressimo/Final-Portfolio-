@@ -15,7 +15,7 @@ export default function Projects() {
 
       <section className="relative font-sans leading-normal tracking-normal">
         <div class="container bg-gradient-to-b from-transparent to-gray-900 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
-          <div className="w-full m-0 pt-0 bg-cover bg-bottom">
+          <div className="w-full m-0 pt-16 bg-cover bg-bottom">
             <div className="container max-w-4xl mx-auto pt-18 md:pt-4 text-center break-normal">
               <p className="text-yellow-600 font-extrabold text-3xl md:text-5xl">
                 Projects

@@ -33,14 +33,14 @@ const App = () => {
     <BrowserRouter>
       <NavBar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Switch>
-        <Route component={Home} path="/" exact />
-        <Route component={About} path="/about" />
-        <Route component={Projects} path="/projects" />
-        <Route component={Skills} path="/skills" />
-        <Route component={Contact} path="/contact" />
-        <Route component={Resume} path="/resume"/>
-      </Switch>
+          <Switch>
+            <Route component={Home} path="/" exact />
+            <Route component={About} path="/about" />
+            <Route component={Projects} path="/projects" />
+            <Route component={Skills} path="/skills" />
+            <Route component={Contact} path="/contact" />
+            <Route component={Resume} path="/resume"/>
+          </Switch>
     </BrowserRouter>
   );
 }

@@ -1,9 +1,10 @@
 import React from "react";
 import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
 import html from "../images/Daco_4562887.png";
-import git from "../images/2560px-Git-logo.svg.png";
-import node from "../images/590px-Node.js_logo.svg.png";
+import git from "../images/git.svg.png";
+import node from "../images/node.png";
 import sql from "../images/pngwing.com.png";
+import postgres from "../images/postgres.png"
 import express from "../images/express-js-png-5.png";
 import sequelize from "../images/sequelize-logo-png-transparent.png";
 import react from "../images/1280px-React-icon.svg.png";
@@ -60,6 +61,10 @@ export default function Skills() {
             <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={sequelize} alt="" />
               <p class="text-l md:text-2xl text-yellow-500">Sequelize</p>
+            </div>
+            <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <img src={postgres} alt="" />
+              <p class="text-l md:text-2xl text-yellow-500">Postgres</p>
             </div>
             <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
               <img src={react} alt="" />
