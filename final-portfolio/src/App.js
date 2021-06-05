@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Route, Router, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { AnimatePresence} from "framer-motion";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -28,19 +29,22 @@ const App = () => {
       window.removeEventListener("resize", hideMenu);
     }
   })
-
+// const location = useLocation();
+  
   return (
     <BrowserRouter>
       <NavBar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
-          <Switch>
-            <Route component={Home} path="/" exact />
-            <Route component={About} path="/about" />
-            <Route component={Projects} path="/projects" />
-            <Route component={Skills} path="/skills" />
-            <Route component={Contact} path="/contact" />
-            <Route component={Resume} path="/resume"/>
-          </Switch>
+          <AnimatePresence exitBeforeEnter>
+            <Switch>
+              <Route component={Home} path="/" exact />
+              <Route component={About} path="/about" />
+              <Route component={Projects} path="/projects" />
+              <Route component={Skills} path="/skills" />
+              <Route component={Contact} path="/contact" />
+              <Route component={Resume} path="/resume"/>
+            </Switch>
+          </AnimatePresence>
     </BrowserRouter>
   );
 }
