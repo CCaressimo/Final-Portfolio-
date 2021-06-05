@@ -1,5 +1,7 @@
 import React from "react";
 import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
+import concentration from "../images/concentration.PNG";
+import mixafy from "../images/mixafy.PNG"
 
 export default function Projects() {
 
@@ -35,7 +37,7 @@ export default function Projects() {
                   href="#"
                   class="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg"
                 >
-                  <img src="#" class="h-64 w-full rounded-t pb-6" />
+                  <img src={concentration} class="h-64 w-full rounded-t pb-6" />
                   <div class="w-full font-bold text-xl text-yellow-600 px-6">
                     Concentration
                   </div>
@@ -109,7 +111,7 @@ export default function Projects() {
                   href="#"
                   class="flex flex-wrap no-underline hover:no-underline"
                 >
-                  <img src="#" class="h-64 w-full rounded-t pb-6" />
+                  <img src={mixafy} class="h-64 w-full rounded-t pb-6" />
                   <div class="w-full font-bold text-xl text-yellow-600 px-6">
                     Mixafy
                   </div>
