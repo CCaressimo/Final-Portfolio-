@@ -100,9 +100,7 @@ export default function About() {
                 nunc commodo posuere et sit amet ligula.Lorem ipsum dolor sit
                 amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc
                 commodo posuere et sit amet ligula. Aliquam at ipsum eu nunc
-                commodo posuere et sit amet ligula.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
-                posuere et sit amet ligula.
+                commodo posuere et sit amet ligula.
               </p>
             </div>
           </div>
