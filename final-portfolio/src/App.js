@@ -41,8 +41,8 @@ const App = () => {
               <Route component={About} path="/about" />
               <Route component={Projects} path="/projects" />
               <Route component={Skills} path="/skills" />
-              <Route component={Contact} path="/contact" />
               <Route component={Resume} path="/resume"/>
+              <Route component={Contact} path="/contact" />
             </Switch>
           </AnimatePresence>
     </BrowserRouter>
