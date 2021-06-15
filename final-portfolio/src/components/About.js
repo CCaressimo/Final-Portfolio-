@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
 import orange from "../images/46512189_1970289146363881_2740894488737087488_n.jpg";
 import reino from "../images/52417159_2096866167039511_8291758574829305856_n.jpg";
@@ -110,11 +111,16 @@ export default function About() {
           </div>
           <div class="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <div class="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
-              <a href="/projects" className="text-center py-6">
-                <button class="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out">
-                  Projects
-                </button>
-              </a>
+              <nav>
+                <div className="text-center py-6">
+                  <NavLink
+                    to="/projects"
+                    class="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
+                  >
+                    Projects
+                  </NavLink>
+                </div>
+              </nav>
             </div>
           </div>
         </section>

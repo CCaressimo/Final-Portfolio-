@@ -1,5 +1,6 @@
 import "./css/font.css";
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
 import concentration from "../images/concentration.PNG";
@@ -222,6 +223,20 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+            <div class="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
+              <nav>
+                <div className="text-center py-6">
+                  <NavLink
+                    to="/skills"
+                    class="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
+                  >
+                    Skills
+                  </NavLink>
+                </div>
+              </nav>
             </div>
           </div>
         </section>

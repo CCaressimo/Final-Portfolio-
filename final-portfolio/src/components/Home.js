@@ -1,6 +1,7 @@
 import "./css/font.css"
 import React from "react";
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
 
 export default function Home() {
@@ -25,11 +26,15 @@ export default function Home() {
                 <p class="subText md:text-2xl text-yellow-500 text-center">
                   Full Stack Web Developer//Musician
                 </p>
-                <a href="/about" className="text-center py-6">
-                  <button class="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out">
-                    Enter
-                  </button>
-                </a>
+                <nav>
+                  <div className="text-center py-6">
+                    <NavLink
+                      to="/about"
+                      class="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out">
+                        Enter
+                    </NavLink>
+                  </div>
+                </nav>
               </div>
             </div>
           </section>
