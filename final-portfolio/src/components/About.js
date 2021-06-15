@@ -20,12 +20,12 @@ export default function About() {
           alt="live at revolution"
           className="fixed object-cover w-full h-full"
         />
-        <section className="relative font-sans leading-normal tracking-normal">
-          <div class="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
-            <h1 class="headerText mb-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center ">
+        <section className="relative leading-normal tracking-normal pt-6">
+          <div className="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+            <h1 className="headerText mb-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center ">
               Who am I
             </h1>
-            <div class="md:flex justify-between">
+            <div className="md:flex justify-between">
               <div className="overflow-auto md:w-5/12 flex items-center">
                 <img src={orange} alt="" className="p-6 " />
               </div>
@@ -43,7 +43,7 @@ export default function About() {
               </div>
             </div>
             <div className="mb-4 p-6 p-6 text-left md:text-left">
-              <p class="subText text-base md:text-2xl text-gray-100">
+              <p className="subText text-base md:text-2xl text-gray-100">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
@@ -55,15 +55,15 @@ export default function About() {
             </div>
           </div>
 
-          <div class="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
-            <h1 class="headerText my-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center">
+          <div className="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+            <h1 className="headerText my-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center">
               How did I get here?
             </h1>
             <div className="object-right">
               <img src={reino} alt="" className="object-contain h-72 w-full" />
             </div>
             <div className="mb-4 p-6 p-6 text-left md:text-left">
-              <p class="subText text-base md:text-2xl text-gray-100">
+              <p className="subText text-base md:text-2xl text-gray-100">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
@@ -78,11 +78,11 @@ export default function About() {
             </div>
           </div>
 
-          <div class="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
-            <h1 class="headerText my-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center">
+          <div className="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+            <h1 className="headerText my-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center">
               Why coding?
             </h1>
-            <div class="md:flex justify-between">
+            <div className="md:flex justify-between">
               <div className="overflow-auto md:w-5/12 flex items-center">
                 <img src={glitch} alt="" className="p-6" />
               </div>
@@ -98,7 +98,7 @@ export default function About() {
               </div>
             </div>
             <div className="mb-4 p-6 p-6 text-left md:text-left">
-              <p class="subText leading-normal text-base md:text-2xl text-gray-100">
+              <p className="subText leading-normal text-base md:text-2xl text-gray-100">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
@@ -109,13 +109,13 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div class="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-            <div class="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
+          <div className="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+            <div className="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
               <nav>
                 <div className="text-center py-6">
                   <NavLink
                     to="/projects"
-                    class="headerText bg-opacity-80 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
+                    className="headerText bg-opacity-80 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
                   >
                     Projects
                   </NavLink>

@@ -29,77 +29,97 @@ export default function Skills() {
           className="fixed object-cover w-full h-full"
         />
 
-        <section className="relative justify-center min-h-screen">
-          <div class="w-full pt-32 flex flex-col flex-grow flex-shrink">
-            <div class="container container bg-opacity-70 bg-gray-700 rounded-t rounded-b px-auto md:px-0 max-w-6xl mx-auto -mt-32">
-              <div class="w-full m-0 p-0 bg-cover bg-bottom">
-                <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
-                  <p class="headerText font-extrabold text-3xl md:text-5xl">
+        <section className="relative justify-center min-h-screen pt-6">
+          <div className="w-full pt-32 flex flex-col flex-grow flex-shrink">
+            <div className="container container bg-opacity-70 bg-gray-700 rounded-t rounded-b px-auto md:px-0 max-w-6xl mx-auto -mt-32">
+              <div className="w-full m-0 p-0 bg-cover bg-bottom">
+                <div className="container max-w-4xl mx-auto p-6 text-center break-normal">
+                  <p className="headerText font-extrabold text-3xl md:text-5xl">
                     Skills
                   </p>
                   <br />
-                  <p class="subText text-yellow-500 text-xl md:text-2xl">
+                  <p className="subText text-yellow-500 text-xl md:text-2xl">
                     These are some of the skill I have acquired during my time
                     as a developer.
                   </p>
                 </div>
               </div>
 
-              <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={html} alt="" />
-                <p class="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText text-yellow-500">
                   HTML5/CSS/JS
                 </p>
               </div>
-              <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={git} alt="" />
-                <p class="text-center text-l md:text-2xl subText text-yellow-500">Github</p>
+                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                  Github
+                </p>
               </div>
-              <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={node} alt="" />
-                <p class="text-center text-l md:text-2xl subText text-yellow-500">Node.js</p>
+                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                  Node.js
+                </p>
               </div>
-              <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={express} alt="" />
-                <p class="text-center text-l md:text-2xl subText text-yellow-500">Express.js</p>
+                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                  Express.js
+                </p>
               </div>
-              <div class="text-center w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div className="text-center w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={sql} alt="" />
-                <p class="text-center text-l md:text-2xl subText text-yellow-500">SQL</p>
+                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                  SQL
+                </p>
               </div>
-              <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={sequelize} alt="" />
-                <p class="text-center text-l md:text-2xl subText text-yellow-500">Sequelize</p>
+                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                  Sequelize
+                </p>
               </div>
-              <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={postgres} alt="" />
-                <p class="text-center text-l md:text-2xl subText text-yellow-500">Postgres</p>
+                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                  Postgres
+                </p>
               </div>
-              <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={react} alt="" />
-                <p class="text-center text-l md:text-2xl subText text-yellow-500">React</p>
+                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                  React
+                </p>
               </div>
-              <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={redux} alt="" />
-                <p class="text-center text-l md:text-2xl subText text-yellow-500">Redux</p>
+                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                  Redux
+                </p>
               </div>
-              <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={bootstrap} alt="" />
-                <p class="text-center text-l md:text-2xl subText text-yellow-500">Bootstrap</p>
+                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                  Bootstrap
+                </p>
               </div>
-              <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={tailwind} alt="" />
-                <p class="text-center text-l md:text-2xl subText text-yellow-500">Tailwind</p>
+                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                  Tailwind
+                </p>
               </div>
             </div>
           </div>
-          <div class="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-            <div class="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
+          <div className="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+            <div className="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
               <nav>
                 <div className="text-center py-6">
                   <NavLink
                     to="/resume"
-                    class="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
+                    className="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
                   >
                     Resume
                   </NavLink>
