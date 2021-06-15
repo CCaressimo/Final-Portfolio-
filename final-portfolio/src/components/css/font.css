@@ -1,7 +1,4 @@
-@font-face {
-  src: url("../../Fonts/odins.TTF");
-  font-family: odin;
-}
+
 
 @font-face {
   src: url("../../Fonts/odinspear.TTF");
@@ -15,7 +12,7 @@
 
 @font-face {
     font-family: viking;
-    src: url("../../Fonts/carolingia.ttf");
+    src: url("../../Fonts/Norse.otf");
 }
 
 .titleText {

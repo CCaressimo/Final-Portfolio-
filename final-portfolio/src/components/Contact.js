@@ -17,7 +17,7 @@ export default function Contact() {
           className="fixed object-cover w-full h-full"
         />
 
-        <section class="relative bg-opacity-70 bg-gray-900 rounded-b overflow-hidden shadow-lg font-sans leading-normal tracking-normal px-4 md:px-0 max-w-6xl mx-auto">
+        <section class="relative bg-opacity-70 bg-gray-700 rounded-b overflow-hidden shadow-lg font-sans leading-normal tracking-normal px-4 md:px-0 max-w-6xl mx-auto">
           <form class="container max-w-4xl mx-auto text-center break-normal">
             <div class="w-full m-0 p-0 bg-cover bg-bottom">
               <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">

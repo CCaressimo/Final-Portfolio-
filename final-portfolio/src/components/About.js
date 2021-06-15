@@ -20,7 +20,7 @@ export default function About() {
           className="fixed object-cover w-full h-full"
         />
         <section className="relative font-sans leading-normal tracking-normal">
-          <div class="relative bg-gradient-to-b from-transparent to-gray-800 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+          <div class="relative bg-gradient-to-b from-transparent to-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
             <h1 class="headerText mb-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center ">
               Who am I
             </h1>
@@ -54,7 +54,7 @@ export default function About() {
             </div>
           </div>
 
-          <div class="relative bg-gradient-to-b from-transparent to-gray-800 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+          <div class="relative bg-gradient-to-b from-transparent to-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
             <h1 class="headerText my-4 p-6 text-3xl md:text-5xl text-yellow-700 font-bold text-center md:text-center">
               How did I get here?
             </h1>
@@ -78,7 +78,7 @@ export default function About() {
             </div>
           </div>
 
-          <div class="relative bg-gradient-to-b from-transparent to-gray-800 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+          <div class="relative bg-gradient-to-b from-transparent to-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
             <h1 class="headerText my-4 p-6 text-3xl md:text-5xl text-yellow-700 font-bold text-center md:text-center">
               Why coding?
             </h1>

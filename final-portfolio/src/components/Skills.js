@@ -30,7 +30,7 @@ export default function Skills() {
 
         <section className="relative justify-center min-h-screen">
           <div class="w-full pt-32 flex flex-col flex-grow flex-shrink">
-            <div class="container container bg-opacity-70 bg-gray-900 rounded-t rounded-b px-auto md:px-0 max-w-6xl mx-auto -mt-32">
+            <div class="container container bg-opacity-70 bg-gray-700 rounded-t rounded-b px-auto md:px-0 max-w-6xl mx-auto -mt-32">
               <div class="w-full m-0 p-0 bg-cover bg-bottom">
                 <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
                   <p class="headerText font-extrabold text-3xl md:text-5xl">

@@ -12,7 +12,7 @@ export default function Projects() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0.4 }}
     >
-      <main class="bg-gray-200 font-sans leading-normal tracking-normal">
+      <main>
         <img
           src={image}
           alt="live at revolution"
@@ -20,7 +20,7 @@ export default function Projects() {
         />
 
         <section className="relative font-sans leading-normal tracking-normal">
-          <div class="container bg-opacity-70 bg-gray-900 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+          <div class="container bg-opacity-70 bg-gray-800 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
             <div className="w-full m-0 pt-16 bg-cover bg-bottom">
               <div className="container max-w-4xl mx-auto pt-18 md:pt-4 text-center break-normal">
                 <p className="headerText font-extrabold text-3xl md:text-5xl">
@@ -38,7 +38,7 @@ export default function Projects() {
 
             <div class="flex flex-wrap justify-between pt-8">
               <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <div class="flex-1 bg-opacity-70 bg-black rounded-t rounded-b overflow-hidden shadow-lg">
+                <div class="flex-1 bg-gray-600 rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
                     href="#"
                     class="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg"
@@ -47,11 +47,12 @@ export default function Projects() {
                       src={concentration}
                       class="h-64 w-full rounded-t pb-6"
                     />
-                    <div class="headerText text-center w-full font-bold text-3xl p-6">
+                    <div class="headerText text-center w-full font-bold text-3xl px-6 pb-6">
                       Concentration
                     </div>
                     <p class="subText font-serif text-xl text-base px-6 mb-5">
-                      A very simple rendition of Concentration built with vanilla Javascript, HTML5, and CSS.
+                      A very simple rendition of Concentration built with
+                      vanilla Javascript, HTML5, and CSS.
                       <br />
                       <br />
                       <br />
@@ -80,17 +81,19 @@ export default function Projects() {
               </div>
 
               <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <div class="flex-1 bg-opacity-70 bg-black rounded-t rounded-b overflow-hidden shadow-lg">
+                <div class="flex-1 bg-gray-600 rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
                     href="#"
                     class="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src="#" class="h-64 w-full rounded-t pb-6" />
-                    <div class="headerText text-center w-full font-bold text-3xl p-6">
+                    <div class="headerText text-center w-full font-bold text-3xl px-6 pb-6">
                       Kanye meme
                     </div>
                     <p class="subText font-serif text-xl text-base px-6 mb-5">
-                      An App that utilizes the Kanye Quotes api, and Flickr api to generate random meme of Kanye West. The UI was also built with Bootstrap.
+                      An App that utilizes the Kanye Quotes api, and Flickr api
+                      to generate random meme of Kanye West. The UI was also
+                      built with Bootstrap.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -116,17 +119,19 @@ export default function Projects() {
               </div>
 
               <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <div class="flex-1 bg-opacity-70 bg-black rounded-t rounded-b overflow-hidden shadow-lg">
+                <div class="flex-1 bg-gray-600 rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
                     href="#"
                     class="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src={mixafy} class="h-64 w-full rounded-t pb-6" />
-                    <div class="headerText text-center w-full font-bold text-3xl p-6">
+                    <div class="headerText text-center w-full font-bold text-3xl px-6 pb-6">
                       Mixafy
                     </div>
                     <p class="subText font-serif text-xl text-base px-6 mb-5">
-                      A Spotify playlist generator that allows you to create a randomized playlist. Mixafy utilizes express, Sequelize, and Bootstrap. 
+                      A Spotify playlist generator that allows you to create a
+                      randomized playlist. Mixafy utilizes express, Sequelize,
+                      and Bootstrap.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -149,13 +154,13 @@ export default function Projects() {
               </div>
 
               <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
-                <div class="flex-1 bg-opacity-70 bg-black rounded-t rounded-b overflow-hidden shadow-lg">
+                <div class="flex-1 bg-gray-600 rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
                     href="#"
                     class="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src="#" class="h-64 w-full rounded-t pb-6" />
-                    <div class="headerText text-center w-full font-bold text-3xl p-6">
+                    <div class="headerText text-center w-full font-bold text-3xl px-6 pb-6">
                       React Project
                     </div>
                     <p class="subText font-serif text-xl text-base px-6 mb-5">
@@ -184,13 +189,13 @@ export default function Projects() {
               </div>
 
               <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
-                <div class="flex-1 bg-opacity-70 bg-black rounded-t rounded-b overflow-hidden shadow-lg">
+                <div class="flex-1 bg-gray-600 rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
                     href="#"
                     class="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src="#" class="h-64 w-full rounded-t pb-6" />
-                    <div class="headerText text-center w-full font-bold text-3xl p-6">
+                    <div class="headerText text-center w-full font-bold text-3xl px-6 pb-6">
                       Capstone
                     </div>
                     <p class="subText font-serif text-xl text-base px-6 mb-5">
