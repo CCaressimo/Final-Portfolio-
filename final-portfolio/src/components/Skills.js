@@ -31,7 +31,7 @@ export default function Skills() {
 
         <section className="relative justify-center min-h-screen pt-6">
           <div className="w-full pt-32 flex flex-col flex-grow flex-shrink">
-            <div className="container container bg-opacity-70 bg-gray-700 rounded-t rounded-b px-auto md:px-0 max-w-6xl mx-auto -mt-32">
+            <div className="container containerBg rounded-t rounded-b px-auto md:px-0 max-w-6xl mx-auto -mt-32">
               <div className="w-full m-0 p-0 bg-cover bg-bottom">
                 <div className="container max-w-4xl mx-auto p-6 text-center break-normal">
                   <p className="headerText font-extrabold text-3xl md:text-5xl">
@@ -119,7 +119,7 @@ export default function Skills() {
                 <div className="text-center py-6">
                   <NavLink
                     to="/resume"
-                    className="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
+                    className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
                   >
                     Resume
                   </NavLink>

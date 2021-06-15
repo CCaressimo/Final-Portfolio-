@@ -18,11 +18,11 @@ export default function Contact() {
         />
 
         <section className="relative leading-normal tracking-normal pt-6">
-          <div className="relative bg-opacity-70 bg-gray-700 rounded-b overflow-hidden shadow-lg leading-normal tracking-normal px-4 pt-6 max-w-6xl mx-auto">
+          <div className="relative containerBg rounded-b overflow-hidden shadow-lg leading-normal tracking-normal px-4 pt-6 max-w-6xl mx-auto">
             <form className="container max-w-4xl mx-auto text-center break-normal">
               <div className="w-full m-0 p-0 bg-cover bg-bottom">
                 <div className="container max-w-4xl mx-auto text-center break-normal">
-                  <p className="headerText font-extrabold text-3xl md:text-5xl">
+                  <p className="headerText shadow-inner font-bold text-3xl md:text-5xl">
                     Contact Me
                   </p>
                   <br />
@@ -50,7 +50,7 @@ export default function Contact() {
                     for="grid-last-name"
                   ></label>
                   <input
-                    className="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    className="appearance-none block w-full bg-white text-gray-700 border border-gray-800 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                     id="grid-last-name"
                     type="text"
                     placeholder="Last Name"
@@ -64,7 +64,7 @@ export default function Contact() {
                     for="grid-password"
                   ></label>
                   <input
-                    className="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    className="appearance-none block w-full bg-white text-gray-700 border border-gray-800 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                     id="email"
                     type="email"
                     placeholder="Email"
@@ -78,15 +78,15 @@ export default function Contact() {
                     for="grid-password"
                   ></label>
                   <textarea
-                    className=" no-resize appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                    className=" no-resize appearance-none block w-full bg-white text-gray-700 border border-gray-800 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                     id="message"
                     placeholder="Leave a message"
                   ></textarea>
                 </div>
               </div>
-              <div classNameName="w-full flex justify-center pb-4 content-center">
+              <div className="text-center pb-6">
                 <button
-                  className="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
+                  className="headerText nextButton containerBg text-2xl py-2 px-4 border border-gray-200 rounded shadow "
                   type="button"
                 >
                   Send

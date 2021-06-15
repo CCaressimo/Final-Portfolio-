@@ -25,7 +25,7 @@ export default function Resume() {
                 <div className="text-center py-6">
                   <NavLink
                     to="/contact"
-                    class="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
+                    class="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow "
                   >
                     Contact
                   </NavLink>

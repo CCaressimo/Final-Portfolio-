@@ -1,0 +1,35 @@
+.background {
+    background-color: #212227;
+}
+
+.containerBg {
+    background-color: #212227da;
+}
+
+.cardBg {
+    background-color: #474747d5;
+}
+
+.buttonBg {
+    background-color: #474747d5;
+    transition: .7s;
+}
+
+.buttonBg:hover {
+    background-color: #212227da;
+     transition: .7s;
+}
+
+.nextButton {
+    background-color: #212227da;
+    transition: .7s;
+
+}
+.nextButton:hover {
+    background-color: #F0F3F5;
+    font-family: odinSpear !important;
+    color: #212227;
+    text-shadow: 2px 2px 5px #000000;
+    transition: .2s;
+
+}

@@ -21,7 +21,7 @@ export default function About() {
           className="fixed object-cover w-full h-full"
         />
         <section className="relative leading-normal tracking-normal pt-6">
-          <div className="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+          <div className="relative containerBg rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
             <h1 className="headerText mb-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center ">
               Who am I
             </h1>
@@ -31,14 +31,12 @@ export default function About() {
               </div>
               <div className="md:w-1/2 p-6">
                 <p className="subText text-base md:text-2xl text-gray-100 mb-8 text-left md:text-left">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam at ipsum eu nunc commodo posuere et sit amet
-                  ligula.Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit. Aliquam at ipsum eu nunc commodo posuere et sit amet
-                  ligula.Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit. Aliquam at ipsum eu nunc commodo posuere et sit amet
-                  ligula.Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
+                  Hey, my name is Christopher Caressimo. I am a
+                  musician-turned-full Stack Developer from Franklin Square, New
+                  York. I am a Nassau Community college Alum, graduating with an
+                  Associates in Arts and Science.
+                  <br />
+                  <br />
                 </p>
               </div>
             </div>
@@ -55,7 +53,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+          <div className="relative containerBg rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
             <h1 className="headerText my-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center">
               How did I get here?
             </h1>
@@ -78,7 +76,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+          <div className="relative containerBg rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
             <h1 className="headerText my-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center">
               Why coding?
             </h1>
@@ -115,7 +113,7 @@ export default function About() {
                 <div className="text-center py-6">
                   <NavLink
                     to="/projects"
-                    className="headerText bg-opacity-80 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
+                    className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
                   >
                     Projects
                   </NavLink>

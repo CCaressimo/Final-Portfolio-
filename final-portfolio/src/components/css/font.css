@@ -6,6 +6,11 @@
 }
 
 @font-face {
+  src: url("../../Fonts/odins.TTF");
+  font-family: odin;
+}
+
+@font-face {
   font-family: Cinzel;
   src: url("../../Fonts/CinzelDecorative-Regular.ttf");
 }
@@ -18,13 +23,22 @@
 .titleText {
     font-family: odinSpear !important;
     color: #F0F3F5;
+    text-shadow: 2px 2px 5px #000000;
+    transition: .7s;
+}
+
+.titleText:hover {
+  color: #FEC601;
+  transition: .7s;
 }
 
 .headerText {
     font-family: viking !important;
-    color: #F0F3F5;
+    color: #FEC601;
+    text-shadow: 2px 2px 5px #000000;
 }
 
 .subText {
     font-family: cinzel !important;
+    color: #F0F3F5;
 }
