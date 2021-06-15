@@ -46,47 +46,49 @@ export default function Skills() {
 
               <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={html} alt="" />
-                <p class="text-l md:text-2xl text-yellow-500">HTML5/CSS/JS</p>
+                <p class="text-center text-l md:text-2xl subText">
+                  HTML5/CSS/JS
+                </p>
               </div>
               <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={git} alt="" />
-                <p class="text-l md:text-2xl text-yellow-500">Github</p>
+                <p class="text-center text-l md:text-2xl subText">Github</p>
               </div>
               <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={node} alt="" />
-                <p class="text-l md:text-2xl text-yellow-500">Node.js</p>
+                <p class="text-center text-l md:text-2xl subText">Node.js</p>
               </div>
               <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={express} alt="" />
-                <p class="text-l md:text-2xl text-yellow-500">Express.js</p>
+                <p class="text-center text-l md:text-2xl subText">Express.js</p>
               </div>
-              <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+              <div class="text-center w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={sql} alt="" />
-                <p class="text-l md:text-2xl text-yellow-500">SQL</p>
+                <p class="text-center text-l md:text-2xl subText">SQL</p>
               </div>
               <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={sequelize} alt="" />
-                <p class="text-l md:text-2xl text-yellow-500">Sequelize</p>
+                <p class="text-center text-l md:text-2xl subText">Sequelize</p>
               </div>
               <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={postgres} alt="" />
-                <p class="text-l md:text-2xl text-yellow-500">Postgres</p>
+                <p class="text-center text-l md:text-2xl subText">Postgres</p>
               </div>
               <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={react} alt="" />
-                <p class="text-l md:text-2xl text-yellow-500">React</p>
+                <p class="text-center text-l md:text-2xl subText">React</p>
               </div>
               <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={redux} alt="" />
-                <p class="text-l md:text-2xl text-yellow-500">Redux</p>
+                <p class="text-center text-l md:text-2xl subText">Redux</p>
               </div>
               <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={bootstrap} alt="" />
-                <p class="text-l md:text-2xl text-yellow-500">Bootstrap</p>
+                <p class="text-center text-l md:text-2xl subText">Bootstrap</p>
               </div>
               <div class="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={tailwind} alt="" />
-                <p class="text-l md:text-2xl text-yellow-500">Tailwind</p>
+                <p class="text-center text-l md:text-2xl subText">Tailwind</p>
               </div>
             </div>
           </div>
