@@ -1,0 +1,34 @@
+@font-face {
+  src: url("../../Fonts/odins.TTF");
+  font-family: odin;
+}
+
+@font-face {
+  src: url("../../Fonts/odinspear.TTF");
+  font-family: odinSpear;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url("../../Fonts/CinzelDecorative-Regular.ttf");
+}
+
+@font-face {
+    font-family: viking;
+    src: url("../../Fonts/carolingia.ttf");
+}
+
+.titleText {
+    font-family: odinSpear !important;
+    color: #F0F3F5;
+}
+
+.headerText {
+    font-family: viking !important;
+    color: #F0F3F5;
+}
+
+.subText {
+    font-family: cinzel !important;
+    color: #F59E0B;
+}

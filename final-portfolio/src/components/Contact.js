@@ -5,23 +5,27 @@ import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg
 
 export default function Contact() {
   return (
-    <motion.div initial={{ opacity: .7 }} animate={{ opacity: 1 }} exit={{ opacity: .4 }}>
-      <main class="bg-gray-600 font-sans leading-normal tracking-normal">
+    <motion.div
+      initial={{ opacity: 0.7 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0.4 }}
+    >
+      <main class="font-sans leading-normal tracking-normal">
         <img
           src={image}
           alt="live at revolution"
           className="fixed object-cover w-full h-full"
         />
 
-        <section class="relative bg-gradient-to-b from-transparent to-gray-900 rounded-b overflow-hidden shadow-lg font-sans leading-normal tracking-normal px-4 md:px-0 max-w-6xl mx-auto">
+        <section class="relative bg-opacity-70 bg-gray-900 rounded-b overflow-hidden shadow-lg font-sans leading-normal tracking-normal px-4 md:px-0 max-w-6xl mx-auto">
           <form class="container max-w-4xl mx-auto text-center break-normal">
             <div class="w-full m-0 p-0 bg-cover bg-bottom">
               <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
-                <p class="text-yellow-600 font-extrabold text-3xl md:text-5xl">
+                <p class="headerText font-extrabold text-3xl md:text-5xl">
                   Contact Me
                 </p>
                 <br />
-                <p class="mt-3 mb-6 text-xl md:text-2xl text-yellow-500">
+                <p class="subText mt-3 mb-6 text-xl md:text-2xl text-yellow-500">
                   Lets get in contact!
                 </p>
               </div>
@@ -81,7 +85,7 @@ export default function Contact() {
             </div>
             <div className="w-full flex justify-center pb-4 content-center">
               <button
-                class="shadow bg-white text-gray-700 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow transition ease-in-out"
                 type="button"
               >
                 Send

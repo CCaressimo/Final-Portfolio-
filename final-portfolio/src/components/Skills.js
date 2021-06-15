@@ -16,7 +16,11 @@ import tailwind from "../images/tailwind-css-logo.svg";
 
 export default function Skills() {
   return (
-    <motion.div initial={{ opacity: .7 }} animate={{ opacity: 1 }} exit={{ opacity: .4 }}>
+    <motion.div
+      initial={{ opacity: 0.7 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0.4 }}
+    >
       <main>
         <img
           src={image}
@@ -26,16 +30,16 @@ export default function Skills() {
 
         <section className="relative justify-center min-h-screen">
           <div class="w-full pt-32 flex flex-col flex-grow flex-shrink">
-            <div class="container bg-gradient-to-b from-transparent to-gray-900 rounded-t rounded-b px-auto md:px-0 max-w-6xl mx-auto -mt-32">
+            <div class="container container bg-opacity-70 bg-gray-900 rounded-t rounded-b px-auto md:px-0 max-w-6xl mx-auto -mt-32">
               <div class="w-full m-0 p-0 bg-cover bg-bottom">
                 <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
-                  <p class="text-yellow-600 font-extrabold text-3xl md:text-5xl">
+                  <p class="headerText font-extrabold text-3xl md:text-5xl">
                     Skills
                   </p>
                   <br />
-                  <p class="text-xl md:text-2xl text-yellow-500">
-                    These are some of the skill I have acquired during my time as
-                    a developer.
+                  <p class="subText text-xl md:text-2xl">
+                    These are some of the skill I have acquired during my time
+                    as a developer.
                   </p>
                 </div>
               </div>

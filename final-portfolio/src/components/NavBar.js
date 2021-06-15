@@ -5,12 +5,11 @@ export default function NavBar({toggle}) {
   return (
     <header className="sticky top-0 z-50">
       <div>
-        <nav className="flex justify-between items-center h-16 bg-black relative shadow-sm font-mono">
+        <nav className="headerText flex justify-between items-center h-16 bg-black relative shadow-sm font-odin text-gray-100">
           <NavLink
             to="/"
             exact
-            activeClassName="text-gray-300"
-            className="inflex-flex items-center py-6 px-3 rounded text-yellow-700 hover:text-green-800 text-4xl font-bold mukta tracking-widest"
+            className="titleText inflex-flex items-center py-6 px-3 rounded text-4xl font-bold font-family-odin tracking-widest hover:text-yellow-500 transition ease-in-out"
           >
             CC
           </NavLink>
@@ -34,50 +33,50 @@ export default function NavBar({toggle}) {
           <div className="pr-8 md:block hidden">
             <NavLink
               to="/about"
-              activeClassName="text-red-200 bg-gray-800"
-              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+              activeClassName="text-yellow-500"
+              className="inline-flex items-center py-3 px-3 my-4 rounded hover:text-yellow-500 transition ease-in-out text-xl md:text-2xl"
             >
               About Me
             </NavLink>
             <NavLink
               to="/projects"
-              activeClassName="text-white bg-gray-800"
-              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+              activeClassName="text-yellow-500"
+              className="inline-flex items-center py-3 px-3 my-4 rounded hover:text-yellow-500 transition ease-in-out text-xl md:text-2xl"
             >
               Projects
             </NavLink>
             <NavLink
               to="/skills"
-              activeClassName="text-white bg-gray-800"
-              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+              activeClassName="text-yellow-500"
+              className="inline-flex items-center py-3 px-3 my-4 rounded hover:text-yellow-500 transition ease-in-out text-xl md:text-2xl"
             >
               Skills
             </NavLink>
             <NavLink
               to="/resume"
-              activeClassName="text-white bg-gray-800"
-              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+              activeClassName="text-yellow-500"
+              className="inline-flex items-center py-3 px-3 my-4 rounded hover:text-yellow-500 transition ease-in-out text-xl md:text-2xl"
             >
               Resume
             </NavLink>
             <NavLink
               to="/contact"
-              activeClassName="text-white bg-gray-800"
-              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+              activeClassName="text-yellow-500"
+              className="inline-flex items-center py-3 px-3 my-4 rounded hover:text-yellow-500 transition ease-in-out text-xl md:text-2xl"
             >
               Contact Me
             </NavLink>
             <a
               href="https://github.com/CCaressimo"
               target="_blank"
-              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+              className="inline-flex items-center py-3 px-3 my-4 rounded hover:text-yellow-500 transition ease-in-out text-xl md:text-2xl"
             >
               Github
             </a>
             <a
               href="https://www.linkedin.com/in/christopher-c-b9885a82/"
               target="_blank"
-              className="inline-flex items-center py-3 px-3 my-4 rounded text-yellow-500 hover:text-green-800"
+              className="inline-flex items-center py-3 px-3 my-4 rounded hover:text-yellow-500 transition ease-in-out text-xl md:text-2xl"
             >
               LinkedIn
             </a>

@@ -1,11 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.google.com/specimen/Mukta#standard-styles");
 
-.mukta {
-  font-family: "Mukta";
-  font-weight: 700;
+@font-face {
+  src: url("./Fonts/odins.TTF");
+  font-family: odin;
+}
+
+@font-face {
+  src: url("./Fonts/odinspear.TTF");
+  font-family: odinSpear;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url("./Fonts/CinzelDecorative-Regular.ttf");
 }
 
 .prose img {
