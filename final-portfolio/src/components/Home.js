@@ -17,7 +17,7 @@ export default function Home() {
             alt="live at revolution"
             className="fixed object-cover w-full h-full"
           />
-          <section className="relative pt-12 lg:pt-64 px-20">
+          <section className="relative pt-36 lg:pt-48 px-20">
             <div className="container pt-24 md:pt-48 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
               <div className="flex flex-col w-full overflow-y-hidden containerBg rounded-t rounded-b px-4">
                 <h1 className="headerText my-4 text-3xl md:text-5xl font-bold shadow-inner text-center">
