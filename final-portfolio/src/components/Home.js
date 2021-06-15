@@ -23,7 +23,7 @@ export default function Home() {
                 <h1 class="headerText my-4 text-3xl md:text-5xl font-bold text-center">
                   Christopher Caressimo
                 </h1>
-                <p class="subText md:text-2xl text-yellow-500 text-center">
+                <p class="subText text-xs md:text-2xl text-yellow-500 text-center">
                   Full Stack Web Developer//Musician
                 </p>
                 <nav>

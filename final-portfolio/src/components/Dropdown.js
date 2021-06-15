@@ -14,28 +14,28 @@ const Dropdown = ({isOpen, toggle}) => {
         >
           <NavLink
             to="/about"
-            activeClassName="text-red-200 bg-gray-800"
+            activeClassName="text-yellow-500 bg-gray-800"
             className="inline-flex items-center py-3 px-3 my-4 rounded hover:text-yellow-400 transition ease-in-out text-xl md:text-2xl"
           >
             About Me
           </NavLink>
           <NavLink
             to="/projects"
-            activeClassName="text-white bg-gray-800"
+            activeClassName="text-yellow-500 bg-gray-800"
             className="inline-flex items-center py-3 px-3 my-4 rounded hover:text-yellow-400 transition ease-in-out text-xl md:text-2xl"
           >
             Projects
           </NavLink>
           <NavLink
             to="/skills"
-            activeClassName="text-white bg-gray-800"
+            activeClassName="text-yellow-500 bg-gray-800"
             className="inline-flex items-center py-3 px-3 my-4 rounded hover:text-yellow-400 transition ease-in-out text-xl md:text-2xl"
           >
             Skills
           </NavLink>
           <NavLink
             to="/contact"
-            activeClassName="text-white bg-gray-800"
+            activeClassName="text-yellow-500 bg-gray-800"
             className="inline-flex items-center py-3 px-3 my-4 rounded hover:text-yellow-400 transition ease-in-out text-xl md:text-2xl"
           >
             Contact Me
