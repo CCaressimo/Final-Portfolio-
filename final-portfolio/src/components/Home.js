@@ -22,9 +22,14 @@ export default function Home() {
                 <h1 class="headerText my-4 text-3xl md:text-5xl font-bold text-center">
                   Christopher Caressimo
                 </h1>
-                <p class="subText md:text-2xl text-yellow-500 mb-6 text-center">
+                <p class="subText md:text-2xl text-yellow-500 text-center">
                   Full Stack Web Developer//Musician
                 </p>
+                <a href="/about" className="text-center py-6">
+                  <button class="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out">
+                    Enter
+                  </button>
+                </a>
               </div>
             </div>
           </section>

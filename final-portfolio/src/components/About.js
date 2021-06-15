@@ -59,7 +59,6 @@ export default function About() {
               How did I get here?
             </h1>
             <div className="object-right">
-            
               <img src={reino} alt="" className="object-contain h-72 w-full" />
             </div>
             <div className="mb-4 p-6 p-6 text-left md:text-left">
@@ -107,6 +106,15 @@ export default function About() {
                 commodo posuere et sit amet ligula.Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit.
               </p>
+            </div>
+          </div>
+          <div class="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+            <div class="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
+              <a href="/projects" className="text-center py-6">
+                <button class="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out">
+                  Projects
+                </button>
+              </a>
             </div>
           </div>
         </section>
