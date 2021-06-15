@@ -19,7 +19,7 @@ export default function Home() {
           />
           <section className="relative pt-12 lg:pt-64 px-20">
             <div class="container pt-24 md:pt-48 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-              <div class="flex flex-col w-full overflow-y-hidden transparent container bg-opacity-70 bg-gray-700 rounded-t rounded-b px-4">
+              <div class="flex flex-col w-full overflow-y-hidden transparent container bg-opacity-90 bg-gray-700 rounded-t rounded-b px-4">
                 <h1 class="headerText my-4 text-3xl md:text-5xl font-bold text-center">
                   Christopher Caressimo
                 </h1>

@@ -21,7 +21,7 @@ export default function About() {
           className="fixed object-cover w-full h-full"
         />
         <section className="relative font-sans leading-normal tracking-normal">
-          <div class="relative bg-gradient-to-b from-transparent to-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+          <div class="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
             <h1 class="headerText mb-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center ">
               Who am I
             </h1>
@@ -30,7 +30,7 @@ export default function About() {
                 <img src={orange} alt="" className="p-6 " />
               </div>
               <div className="md:w-1/2 p-6">
-                <p className="subText text-base md:text-2xl text-yellow-500 mb-8 text-left md:text-left">
+                <p className="subText text-base md:text-2xl text-gray-100 mb-8 text-left md:text-left">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam at ipsum eu nunc commodo posuere et sit amet
                   ligula.Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -43,7 +43,7 @@ export default function About() {
               </div>
             </div>
             <div className="mb-4 p-6 p-6 text-left md:text-left">
-              <p class="subText text-base md:text-2xl text-yellow-500">
+              <p class="subText text-base md:text-2xl text-gray-100">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
@@ -55,15 +55,15 @@ export default function About() {
             </div>
           </div>
 
-          <div class="relative bg-gradient-to-b from-transparent to-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
-            <h1 class="headerText my-4 p-6 text-3xl md:text-5xl text-yellow-700 font-bold text-center md:text-center">
+          <div class="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+            <h1 class="headerText my-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center">
               How did I get here?
             </h1>
             <div className="object-right">
               <img src={reino} alt="" className="object-contain h-72 w-full" />
             </div>
             <div className="mb-4 p-6 p-6 text-left md:text-left">
-              <p class="subText text-base md:text-2xl text-yellow-500">
+              <p class="subText text-base md:text-2xl text-gray-100">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
@@ -78,8 +78,8 @@ export default function About() {
             </div>
           </div>
 
-          <div class="relative bg-gradient-to-b from-transparent to-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
-            <h1 class="headerText my-4 p-6 text-3xl md:text-5xl text-yellow-700 font-bold text-center md:text-center">
+          <div class="relative bg-opacity-80 bg-gray-700 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+            <h1 class="headerText my-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center">
               Why coding?
             </h1>
             <div class="md:flex justify-between">
@@ -87,7 +87,7 @@ export default function About() {
                 <img src={glitch} alt="" className="p-6" />
               </div>
               <div className="md:w-1/2 p-6">
-                <p className="subText text-base md:text-2xl text-yellow-500 mb-8 text-left md:text-left">
+                <p className="subText text-base md:text-2xl text-gray-100 mb-8 text-left md:text-left">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam at ipsum eu nunc commodo posuere et sit amet
                   ligula.Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -98,7 +98,7 @@ export default function About() {
               </div>
             </div>
             <div className="mb-4 p-6 p-6 text-left md:text-left">
-              <p class="subText leading-normal text-base md:text-2xl text-yellow-500">
+              <p class="subText leading-normal text-base md:text-2xl text-gray-100">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
@@ -115,7 +115,7 @@ export default function About() {
                 <div className="text-center py-6">
                   <NavLink
                     to="/projects"
-                    class="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
+                    class="headerText bg-opacity-80 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
                   >
                     Projects
                   </NavLink>

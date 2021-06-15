@@ -85,7 +85,7 @@ export default function Contact() {
             </div>
             <div className="w-full flex justify-center pb-4 content-center">
               <button
-                class="bg-white hover:bg-yellow-600 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow transition ease-in-out"
+                class="headerText bg-opacity-70 bg-gray-700 hover:bg-yellow-600 text-gray-800 py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
                 type="button"
               >
                 Send
