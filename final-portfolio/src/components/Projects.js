@@ -47,13 +47,14 @@ export default function Projects() {
                       src={concentration}
                       class="h-64 w-full rounded-t pb-6"
                     />
-                    <div class="headerText text-center w-full font-bold text-3xl px-6">
+                    <div class="headerText text-center w-full font-bold text-3xl p-6">
                       Concentration
                     </div>
                     <p class="subText font-serif text-xl text-base px-6 mb-5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Aliquam at ipsum eu nunc commodo posuere et sit amet
-                      ligula.
+                      A very simple rendition of Concentration built with vanilla Javascript, HTML5, and CSS.
+                      <br />
+                      <br />
+                      <br />
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -85,13 +86,11 @@ export default function Projects() {
                     class="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src="#" class="h-64 w-full rounded-t pb-6" />
-                    <div class="headerText text-center w-full font-bold text-3xl px-6">
-                      MEME Kanye
+                    <div class="headerText text-center w-full font-bold text-3xl p-6">
+                      Kanye meme
                     </div>
                     <p class="subText font-serif text-xl text-base px-6 mb-5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Aliquam at ipsum eu nunc commodo posuere et sit amet
-                      ligula.
+                      An App that utilizes the Kanye Quotes api, and Flickr api to generate random meme of Kanye West. The UI was also built with Bootstrap.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -123,13 +122,11 @@ export default function Projects() {
                     class="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src={mixafy} class="h-64 w-full rounded-t pb-6" />
-                    <div class="headerText text-center w-full font-bold text-3xl px-6">
+                    <div class="headerText text-center w-full font-bold text-3xl p-6">
                       Mixafy
                     </div>
                     <p class="subText font-serif text-xl text-base px-6 mb-5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Aliquam at ipsum eu nunc commodo posuere et sit amet
-                      ligula.
+                      A Spotify playlist generator that allows you to create a randomized playlist. Mixafy utilizes express, Sequelize, and Bootstrap. 
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -158,7 +155,7 @@ export default function Projects() {
                     class="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src="#" class="h-64 w-full rounded-t pb-6" />
-                    <div class="headerText text-center w-full font-bold text-3xl px-6">
+                    <div class="headerText text-center w-full font-bold text-3xl p-6">
                       React Project
                     </div>
                     <p class="subText font-serif text-xl text-base px-6 mb-5">
@@ -193,7 +190,7 @@ export default function Projects() {
                     class="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src="#" class="h-64 w-full rounded-t pb-6" />
-                    <div class="headerText text-center w-full font-bold text-3xl px-6">
+                    <div class="headerText text-center w-full font-bold text-3xl p-6">
                       Capstone
                     </div>
                     <p class="subText font-serif text-xl text-base px-6 mb-5">
