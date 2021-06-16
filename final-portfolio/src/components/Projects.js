@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
 import concentration from "../images/concentration.PNG";
+import kanye from "../images/kanye.PNG"
 import mixafy from "../images/mixafy.PNG";
 
 export default function Projects() {
@@ -22,7 +23,7 @@ export default function Projects() {
         />
 
         <section className="relative leading-normal tracking-normal pt-6">
-          <div className="container containerBg rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+          <div className="container containerBg border border-gray-400 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
             <div className="w-full m-0 p-6 bg-cover bg-bottom">
               <div className="container max-w-4xl mx-auto text-center break-normal">
                 <p className="headerText font-bold shadow-inner text-3xl md:text-5xl">
@@ -57,7 +58,6 @@ export default function Projects() {
                       vanilla Javascript, HTML5, and CSS.
                       <br />
                       <br />
-                      <br />
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -88,14 +88,13 @@ export default function Projects() {
                     href="#"
                     className="flex flex-wrap no-underline hover:no-underline"
                   >
-                    <img src="#" className="h-64 w-full rounded-t pb-6" />
+                    <img src={kanye} className="h-64 w-full rounded-t pb-6" />
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Kanye meme
                     </div>
                     <p className="subText text-yellow-500 text-xl text-base px-6 mb-5">
                       An App that utilizes the Kanye Quotes api, and Flickr api
-                      to generate random meme of Kanye West. The UI was also
-                      built with Bootstrap.
+                      to generate random meme of Kanye West. The UI was built using Tailwind CSS.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a

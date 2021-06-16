@@ -19,18 +19,18 @@ export default function Home() {
           />
           <section className="relative pt-36 lg:pt-48 px-20">
             <div className="container pt-24 md:pt-48 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-              <div className="flex flex-col w-full overflow-y-hidden containerBg rounded-t rounded-b px-4">
+              <div className="flex flex-col w-full overflow-y-hidden containerBg border border-gray-400 rounded-t rounded-b px-4">
                 <h1 className="headerText my-4 text-3xl md:text-5xl font-bold shadow-inner text-center">
                   Christopher Caressimo
                 </h1>
-                <p className="subText text-xs md:text-2xl text-green-500 text-center">
+                <p className="subText text-xs md:text-2xl text-center">
                   Full Stack Web Developer//Musician
                 </p>
                 <nav>
                   <div className="text-center py-6">
                     <NavLink
                       to="/about"
-                      className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
+                      className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
                     >
                       Enter
                     </NavLink>

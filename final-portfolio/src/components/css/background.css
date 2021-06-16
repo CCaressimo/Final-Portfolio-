@@ -7,11 +7,11 @@
 }
 
 .cardBg {
-    background-color: #474747d5;
+    background-color: #363636d5;
 }
 
 .buttonBg {
-    background-color: #474747d5;
+    background-color: #3a3a3ad5;
     transition: .7s;
 }
 
@@ -32,4 +32,8 @@
     text-shadow: 2px 2px 5px #000000;
     transition: .2s;
 
+}
+
+img#image {
+    border-radius: 5px;
 }

@@ -18,7 +18,7 @@ export default function Contact() {
         />
 
         <section className="relative leading-normal tracking-normal pt-6">
-          <div className="relative containerBg rounded-b overflow-hidden shadow-lg leading-normal tracking-normal px-4 pt-6 max-w-6xl mx-auto">
+          <div className="relative border border-gray-400 containerBg rounded-b overflow-hidden shadow-lg leading-normal tracking-normal px-4 pt-6 max-w-6xl mx-auto">
             <form className="container max-w-4xl mx-auto text-center break-normal">
               <div className="w-full m-0 p-0 bg-cover bg-bottom">
                 <div className="container max-w-4xl mx-auto text-center break-normal">
