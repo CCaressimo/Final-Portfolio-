@@ -30,7 +30,7 @@ export default function Projects() {
                   Projects
                 </p>
                 <br />
-                <p className="subText text-xl md:text-2xl text-yellow-500">
+                <p className="subText text-xl md:text-2xl">
                   Feel free to checkout some of my projects that I have built
                   during my time in DigitalCrafts
                 </p>
@@ -41,7 +41,7 @@ export default function Projects() {
 
             <div className="flex flex-wrap justify-between pt-8">
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <div className="flex-1 cardBg rounded-t rounded-b overflow-hidden shadow-lg">
+                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
                     href="#"
                     className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg"
@@ -53,7 +53,7 @@ export default function Projects() {
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Concentration
                     </div>
-                    <p className="subText text-yellow-500 text-xl text-base px-6 mb-5">
+                    <p className="subText text-xl text-base px-6 mb-5">
                       A very simple rendition of Concentration built with
                       vanilla Javascript, HTML5, and CSS.
                       <br />
@@ -83,7 +83,7 @@ export default function Projects() {
               </div>
 
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <div className="flex-1 cardBg rounded-t rounded-b overflow-hidden shadow-lg">
+                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
                     href="#"
                     className="flex flex-wrap no-underline hover:no-underline"
@@ -92,9 +92,10 @@ export default function Projects() {
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Kanye meme
                     </div>
-                    <p className="subText text-yellow-500 text-xl text-base px-6 mb-5">
+                    <p className="subText text-xl text-base px-6 mb-5">
                       An App that utilizes the Kanye Quotes api, and Flickr api
-                      to generate random meme of Kanye West. The UI was built using Tailwind CSS.
+                      to generate random meme of Kanye West. The UI was built
+                      using Tailwind CSS.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -107,7 +108,7 @@ export default function Projects() {
                         </button>
                       </a>
                       <a
-                        href="https://ccaressimo.github.io/Front-End/"
+                        href="https://ccaressimo.github.io/Kanye-Meme/"
                         target="_blank"
                       >
                         <button className="headerText buttonBg py-2 px-4 border border-gray-200 rounded shadow">
@@ -120,7 +121,7 @@ export default function Projects() {
               </div>
 
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <div className="flex-1 cardBg rounded-t rounded-b overflow-hidden shadow-lg">
+                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
                     href="#"
                     className="flex flex-wrap no-underline hover:no-underline"
@@ -129,7 +130,7 @@ export default function Projects() {
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Mixafy
                     </div>
-                    <p className="subText text-yellow-500 text-xl text-base px-6 mb-5">
+                    <p className="subText text-xl text-base px-6 mb-5">
                       A Spotify playlist generator that allows you to create a
                       randomized playlist. Mixafy utilizes express, Sequelize,
                       and Bootstrap.
@@ -155,7 +156,7 @@ export default function Projects() {
               </div>
 
               <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
-                <div className="flex-1 cardBg rounded-t rounded-b overflow-hidden shadow-lg">
+                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
                     href="#"
                     className="flex flex-wrap no-underline hover:no-underline"
@@ -164,11 +165,7 @@ export default function Projects() {
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       React Project
                     </div>
-                    <p className="subText text-yellow-500 text-xl text-base px-6 mb-5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Aliquam at ipsum eu nunc commodo posuere et sit amet
-                      ligula.
-                    </p>
+                    <p className="subText text-xl text-base px-6 mb-5"></p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
                         href="https://github.com/CCaressimo"
@@ -190,7 +187,7 @@ export default function Projects() {
               </div>
 
               <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
-                <div className="flex-1 cardBg rounded-t rounded-b overflow-hidden shadow-lg">
+                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
                     href="#"
                     className="flex flex-wrap no-underline hover:no-underline"
@@ -199,11 +196,7 @@ export default function Projects() {
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Capstone
                     </div>
-                    <p className="subText text-yellow-500 text-xl text-base px-6 mb-5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Aliquam at ipsum eu nunc commodo posuere et sit amet
-                      ligula.
-                    </p>
+                    <p className="subText text-xl text-base px-6 mb-5"></p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
                         href="https://github.com/CCaressimo"

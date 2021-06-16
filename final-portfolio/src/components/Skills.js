@@ -38,7 +38,7 @@ export default function Skills() {
                     Skills
                   </p>
                   <br />
-                  <p className="subText text-yellow-500 text-xl md:text-2xl">
+                  <p className="subText text-xl md:text-2xl">
                     These are some of the skill I have acquired during my time
                     as a developer.
                   </p>
@@ -47,67 +47,67 @@ export default function Skills() {
 
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={html} alt="" />
-                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText">
                   HTML5/CSS/JS
                 </p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={git} alt="" />
-                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText">
                   Github
                 </p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={node} alt="" />
-                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText">
                   Node.js
                 </p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={express} alt="" />
-                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText">
                   Express.js
                 </p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={sql} alt="" />
-                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText">
                   SQL
                 </p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={sequelize} alt="" />
-                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText">
                   Sequelize
                 </p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={postgres} alt="" />
-                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText">
                   Postgres
                 </p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={react} alt="" />
-                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText">
                   React
                 </p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={redux} alt="" />
-                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText">
                   Redux
                 </p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={bootstrap} alt="" />
-                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText">
                   Bootstrap
                 </p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={tailwind} alt="" />
-                <p className="text-center text-l md:text-2xl subText text-yellow-500">
+                <p className="text-center text-l md:text-2xl subText">
                   Tailwind
                 </p>
               </div>
