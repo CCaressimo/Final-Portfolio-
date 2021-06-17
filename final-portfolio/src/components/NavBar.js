@@ -34,49 +34,49 @@ export default function NavBar({toggle}) {
             <NavLink
               to="/about"
               activeClassName="titleText"
-              className="inline-flex items-center py-3 px-3 my-4 rounded nextButton text-xl md:text-2xl"
+              className="inline-flex items-center py-3 px-3 my-4 rounded navButton text-xl md:text-2xl"
             >
               About Me
             </NavLink>
             <NavLink
               to="/projects"
               activeClassName="titleText"
-              className="inline-flex items-center py-3 px-3 my-4 rounded nextButton text-xl md:text-2xl"
+              className="inline-flex items-center py-3 px-3 my-4 rounded navButton text-xl md:text-2xl"
             >
               Projects
             </NavLink>
             <NavLink
               to="/skills"
               activeClassName="titleText"
-              className="inline-flex items-center py-3 px-3 my-4 rounded nextButton text-xl md:text-2xl"
+              className="inline-flex items-center py-3 px-3 my-4 rounded navButton text-xl md:text-2xl"
             >
               Skills
             </NavLink>
             <NavLink
               to="/resume"
               activeClassName="titleText"
-              className="inline-flex items-center py-3 px-3 my-4 rounded nextButton text-xl md:text-2xl"
+              className="inline-flex items-center py-3 px-3 my-4 rounded navButton text-xl md:text-2xl"
             >
               Resume
             </NavLink>
             <NavLink
               to="/contact"
               activeClassName="titleText"
-              className="inline-flex items-center py-3 px-3 my-4 rounded nextButton text-xl md:text-2xl"
+              className="inline-flex items-center py-3 px-3 my-4 rounded navButton text-xl md:text-2xl"
             >
               Contact Me
             </NavLink>
             <a
               href="https://github.com/CCaressimo"
               target="_blank"
-              className="inline-flex items-center py-3 px-3 my-4 rounded nextButton text-xl md:text-2xl"
+              className="inline-flex items-center py-3 px-3 my-4 rounded navButton text-xl md:text-2xl"
             >
               Github
             </a>
             <a
-              href="https://www.linkedin.com/in/christopher-c-b9885a82/"
+              href="https://www.linkedin.com/in/christopheracaressimo/"
               target="_blank"
-              className="inline-flex items-center py-3 px-3 my-4 rounded nextButton text-xl md:text-2xl"
+              className="inline-flex items-center py-3 px-3 my-4 rounded navButton text-xl md:text-2xl"
             >
               LinkedIn
             </a>

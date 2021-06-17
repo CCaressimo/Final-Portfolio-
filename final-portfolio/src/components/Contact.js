@@ -86,13 +86,35 @@ export default function Contact() {
               </div>
               <div className="text-center pb-6">
                 <button
-                  className="headerText nextButton containerBg text-2xl py-2 px-4 border border-gray-200 rounded shadow "
+                  className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
                   type="button"
                 >
                   Send
                 </button>
               </div>
             </form>
+          </div>
+          <br />
+          <div className="container px-6 mx-auto flex flex-wrap flex-col items-center">
+            <div className="text-center pb-6">
+              <a
+                href="https://github.com/CCaressimo"
+                target="_blank"
+                className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
+              >
+                Github
+              </a>
+            </div>
+          
+            <div className="text-center pb-6">
+              <a
+                href="https://www.linkedin.com/in/christopheracaressimo/"
+                target="_blank"
+                className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
+              >
+                LinkedIn
+              </a>
+            </div>
           </div>
         </section>
       </main>

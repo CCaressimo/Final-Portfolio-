@@ -34,6 +34,18 @@
 
 }
 
+.navButton {
+    background-color: #212227da;
+    transition: .7s;
+
+}
+.navButton:hover {
+    color: #F0F3F5;
+    text-shadow: 2px 2px 5px #000000;
+    transition: .2s;
+
+}
+
 img#image {
     border-radius: 5px;
 }

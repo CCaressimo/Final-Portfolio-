@@ -94,7 +94,7 @@ export default function Projects() {
                     </div>
                     <p className="subText text-xl text-base px-6 mb-5">
                       An App that utilizes the Kanye Quotes api, and Flickr api
-                      to generate random meme of Kanye West. The UI was built
+                      to generate random memes of Kanye West. The UI was built
                       using Tailwind CSS.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">

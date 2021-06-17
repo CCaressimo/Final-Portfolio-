@@ -65,7 +65,7 @@ export default function About() {
               <p className="subText text-base md:text-2xl text-gray-100">
                 As I was growing up, I had a few family members and friends that
                 were in the tech field who brought up the idea of going into the
-                tech field. Although the idea of being working in the tech field
+                tech field. Although the idea of working in the tech field
                 was cool, at the time I was already going to school for Nuclear
                 Medicine which didn't work out in the long run. My goal then was
                 to get out with a basic degree and focus my time and energy on
