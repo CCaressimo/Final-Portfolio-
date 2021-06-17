@@ -49,3 +49,9 @@
 img#image {
     border-radius: 5px;
 }
+
+main {
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+}
