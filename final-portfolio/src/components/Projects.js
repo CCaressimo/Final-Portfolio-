@@ -43,7 +43,6 @@ export default function Projects() {
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
-                    href="#"
                     className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg"
                   >
                     <img
@@ -65,7 +64,7 @@ export default function Projects() {
                         target="_blank"
                         className="pr-4"
                       >
-                        <button className="headerText buttonBg py-2 px-4 border border-gray-200 rounded shadow">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           GitHub
                         </button>
                       </a>
@@ -73,7 +72,7 @@ export default function Projects() {
                         href="https://ccaressimo.github.io/Concentration-Game/"
                         target="_blank"
                       >
-                        <button className="headerText buttonBg py-2 px-4 border border-gray-200 rounded shadow">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           Live App
                         </button>
                       </a>
@@ -85,7 +84,6 @@ export default function Projects() {
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
-                    href="#"
                     className="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src={kanye} className="h-64 w-full rounded-t pb-6" />
@@ -103,7 +101,7 @@ export default function Projects() {
                         target="_blank"
                         className="pr-4"
                       >
-                        <button className="headerText buttonBg py-2 px-4 border border-gray-200 rounded shadow">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           GitHub
                         </button>
                       </a>
@@ -111,7 +109,7 @@ export default function Projects() {
                         href="https://ccaressimo.github.io/Kanye-Meme/"
                         target="_blank"
                       >
-                        <button className="headerText buttonBg py-2 px-4 border border-gray-200 rounded shadow">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           Live App
                         </button>
                       </a>
@@ -123,7 +121,6 @@ export default function Projects() {
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
-                    href="#"
                     className="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src={mixafy} className="h-64 w-full rounded-t pb-6" />
@@ -141,12 +138,12 @@ export default function Projects() {
                         target="_blank"
                         className="pr-4"
                       >
-                        <button className="headerText buttonBg py-2 px-4 border border-gray-200 rounded shadow">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           GitHub
                         </button>
                       </a>
                       <a href="https://mixafy.herokuapp.com" target="_blank">
-                        <button className="headerText buttonBg py-2 px-4 border border-gray-200 rounded shadow">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           Live App
                         </button>
                       </a>
@@ -158,7 +155,6 @@ export default function Projects() {
               <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
-                    href="#"
                     className="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src="#" className="h-64 w-full rounded-t pb-6" />
@@ -172,12 +168,12 @@ export default function Projects() {
                         target="_blank"
                         className="pr-4"
                       >
-                        <button className="headerText buttonBg py-2 px-4 border border-gray-200 rounded shadow">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           GitHub
                         </button>
                       </a>
                       <a href="#" target="_blank">
-                        <button className="headerText buttonBg py-2 px-4 border border-gray-200 rounded shadow">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           Live App
                         </button>
                       </a>
@@ -189,7 +185,6 @@ export default function Projects() {
               <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a
-                    href="#"
                     className="flex flex-wrap no-underline hover:no-underline"
                   >
                     <img src="#" className="h-64 w-full rounded-t pb-6" />
@@ -203,12 +198,12 @@ export default function Projects() {
                         target="_blank"
                         className="pr-4"
                       >
-                        <button className="headerText buttonBg py-2 px-4 border border-gray-200 rounded shadow">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           GitHub
                         </button>
                       </a>
                       <a href="#" target="_blank">
-                        <button className="headerText buttonBg py-2 px-4 border border-gray-200 rounded shadow">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           Live App
                         </button>
                       </a>
