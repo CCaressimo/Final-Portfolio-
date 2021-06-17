@@ -19,7 +19,7 @@ export default function Projects() {
         <img
           src={image}
           alt="live at revolution"
-          className="fixed object-cover w-full h-full"
+          className="photo fixed object-cover w-full h-full"
         />
 
         <section className="relative leading-normal tracking-normal pt-6">
@@ -37,14 +37,10 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="flex h-full overflow-hidden shadow-lg"></div>
-
             <div className="flex flex-wrap justify-between pt-8">
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
-                  <a
-                    className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg"
-                  >
+                  <a className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg">
                     <img
                       src={concentration}
                       className="h-64 w-full rounded-t pb-6"
@@ -83,9 +79,46 @@ export default function Projects() {
 
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
-                  <a
-                    className="flex flex-wrap no-underline hover:no-underline"
-                  >
+                  <a className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg">
+                    <img
+                      src={concentration}
+                      className="h-64 w-full rounded-t pb-6"
+                    />
+                    <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
+                      Tik-Tac-Toe
+                    </div>
+                    <p className="subText text-xl text-base px-6 mb-5">
+                      A basic rendition of Tik-Tac-Toe built with vanilla
+                      Javascript, HTML5, and CSS.
+                      <br />
+                      <br />
+                    </p>
+                    <div className="w-full flex justify-center pb-4 content-center">
+                      <a
+                        href="https://github.com/CCaressimo/Tic-Tac-Toe"
+                        target="_blank"
+                        className="pr-4"
+                      >
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          GitHub
+                        </button>
+                      </a>
+                      <a
+                        href="https://ccaressimo.github.io/Tic-Tac-Toe/"
+                        target="_blank"
+                      >
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          Live App
+                        </button>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
+                  <a className="flex flex-wrap no-underline hover:no-underline">
                     <img src={kanye} className="h-64 w-full rounded-t pb-6" />
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Kanye meme
@@ -120,9 +153,7 @@ export default function Projects() {
 
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
-                  <a
-                    className="flex flex-wrap no-underline hover:no-underline"
-                  >
+                  <a className="flex flex-wrap no-underline hover:no-underline">
                     <img src={mixafy} className="h-64 w-full rounded-t pb-6" />
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Mixafy
@@ -152,11 +183,9 @@ export default function Projects() {
                 </div>
               </div>
 
-              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
-                  <a
-                    className="flex flex-wrap no-underline hover:no-underline"
-                  >
+                  <a className="flex flex-wrap no-underline hover:no-underline">
                     <img src="#" className="h-64 w-full rounded-t pb-6" />
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       React Project
@@ -182,11 +211,9 @@ export default function Projects() {
                 </div>
               </div>
 
-              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
-                  <a
-                    className="flex flex-wrap no-underline hover:no-underline"
-                  >
+                  <a className="flex flex-wrap no-underline hover:no-underline">
                     <img src="#" className="h-64 w-full rounded-t pb-6" />
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Capstone
