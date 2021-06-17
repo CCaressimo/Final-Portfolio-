@@ -95,24 +95,28 @@ export default function Contact() {
             </form>
           </div>
           <br />
-          <div className="container px-6 mx-auto flex flex-wrap flex-col items-center">
+          <div className="w-full flex justify-center pb-4 content-center">
             <div className="text-center pb-6">
               <a
                 href="https://github.com/CCaressimo"
                 target="_blank"
-                className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
+                className="pr-4"
               >
-                Github
+                <button className="headerText nextButton py-2 px-4 border border-gray-200 rounded shadow">
+                  Github
+                </button>
               </a>
             </div>
-          
+
             <div className="text-center pb-6">
               <a
                 href="https://www.linkedin.com/in/christopheracaressimo/"
                 target="_blank"
-                className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
+                className="pr-4"
               >
-                LinkedIn
+                <button className="headerText nextButton py-2 px-4 border border-gray-200 rounded shadow">
+                  LinkedIn
+                </button>
               </a>
             </div>
           </div>
