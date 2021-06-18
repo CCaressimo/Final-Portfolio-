@@ -37,7 +37,7 @@ export default function Resume() {
               </h3>
               <ul className="px-6 md:py-6 py-2">
                 <li className="subText text-xs md:text-xl text-left">
-                  -HTML, CSS, JavaScript, Github, Node.js, Express.js, SQL,
+                  - HTML, CSS, JavaScript, Github, Node.js, Express.js, SQL,
                   Sequelize, React/Redux, Bootstrap, and Tailwindcss.
                 </li>
               </ul>
@@ -46,82 +46,140 @@ export default function Resume() {
               <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
                 Education:
               </h3>
-              <p className="subText text-xs md:text-xl text-left px-6">
-                DigitalCrafts | Certificate in Software Engineering | Atlanta,
-                GA
-                <span className="md:pl-36 pl-24">January 2021 – July 2021</span>
-              </p>
-              <ul className="px-6 md:py-6 py-2">
+              <div className="grid grid-cols-4 gap-4">
+                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
+                  DigitalCrafts | Certificate in Software Engineering | Atlanta,
+                  GA
+                </p>
+                <p className="subText text-s md:text-2xl text-left px-6 text-right">
+                  January 2021 – July 2021
+                </p>
+              </div>
+              <ul className="px-6 md:py-6 py-2 md:pb-12 pb-4">
                 <li className="subText text-xs md:text-xl text-left">
-                  -Software engineering training program covering full-stack
+                  - Software engineering training program covering full-stack
                   development including, but not limited to JavaScript, Python,
                   including an emphasis on cutting-edge frameworks like
                   React/Redux and server-side technologies including Node.js,
                   Express, and PostgreSQL.
                 </li>
               </ul>
-              <p className="subText text-xs md:text-xl text-left px-6">
-                Nassau Community College | Associates in Arts & Sciences |
-                Garden City, NY
-                <span className="md:pl-6 pl-20">September 2014 – May 2019</span>
-              </p>
+              <div className="grid grid-cols-4 gap-4">
+                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
+                  Nassau Community College | Associates in Arts & Sciences |
+                  Garden City, NY
+                </p>
+                <p className="subText text-s md:text-2xl text-left px-6 text-right">
+                  September 2014 – May 2019
+                </p>
+              </div>
             </div>
             <div>
               <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
                 Work Experience:
               </h3>
-              <p className="subText text-xs md:text-xl text-left px-6">
-                Mixafy
-                <span className="md:pl-6 pl-20">May 2021</span>
-              </p>
-              <ul className="px-6 md:py-6 py-2">
+              <div className="grid grid-cols-4 gap-4">
+                <p className="subText text-s md:text-xl text-left px-6 col-span-3 h-4">
+                  Mixafy
+                </p>
+                <p className="subText text-s md:text-2xl text-left px-6 text-right">
+                  May 2021
+                </p>
+              </div>
+              <ul className="px-6 md:py-6 py-2 md:pb-12 pb-4">
                 <li className="subText pb-2 text-xs md:text-xl text-left">
-                  -Lead developer in a team of 2, creating an application that
+                  - Lead developer in a team of 2, creating an application that
                   allows the user to generate random playlists between selected
                   genres or one specific genre from a database of handpicked
                   songs from Spotify.
                 </li>
                 <li className="subText pb-2 text-xs md:text-xl text-left">
-                  -Responsibilities include setting up a database using
+                  - Responsibilities include setting up a database using
                   Beekeeper and PostgreSQL, linking back-end with front-end
                   utilizing Express and Node.js, and creating the UI with
                   Bootstrap and vanilla CSS.
                 </li>
                 <li className="subText text-xs md:text-xl text-left">
-                  -Built with HTML, CSS/BootStrap, Javasript, Express, Node.js,
+                  - Built with HTML, CSS/BootStrap, Javasript, Express, Node.js,
                   and PostgreSQL.
                 </li>
               </ul>
-              <p className="subText text-xs md:text-xl text-left px-6">
-                Kanye Meme<span className="md:pl-6 pl-20">April 2021</span>
-              </p>
-              <ul className="px-6 md:py-6 py-2">
-                <li className="subText pb-2 text-xs md:text-xl text-left">-</li>
-                <li className="subText pb-2 text-xs md:text-xl text-left">-</li>
-                <li className="subText text-xs md:text-xl text-left px-6">-</li>
+              <div className="grid grid-cols-4 gap-4">
+                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
+                  Kanye Meme
+                </p>
+                <p className="subText text-s md:text-2xl text-left px-6 text-right">
+                  April 2021
+                </p>
+              </div>
+              <ul className="px-6 md:py-6 py-2 md:pb-12 pb-4">
+                <li className="subText pb-2 text-xs md:text-xl text-left">
+                  - Lead developer in a team of 2, creating a Kanye meme
+                  generator utilizing the Kanye quotes API, and Flickr API for
+                  images.
+                </li>
+                <li className="subText pb-2 text-xs md:text-xl text-left">
+                  - Responsibilities include learning how to utilize 2 API’s and
+                  how to navigate through documentation on how to use said
+                  API’s, and building the UI with Tailwind CSS.
+                </li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Built with HTML, Tailwind CSS, JavaScript, and jQuery.
+                </li>
               </ul>
-              <p className="subText text-xs md:text-xl text-left px-6">
-                Tik-Tac-Toe<span className="md:pl-6 pl-20">March 2021</span>
-              </p>
-              <ul className="px-6 md:py-6 py-2">
-                <li className="subText pb-2 text-xs md:text-xl text-left">-</li>
-                <li className="subText pb-2 text-xs md:text-xl text-left">-</li>
-                <li className="subText text-xs md:text-xl text-left px-6">-</li>
+              <div className="grid grid-cols-4 gap-4">
+                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
+                  Portfolio
+                </p>
+                <p className="subText text-s md:text-2xl text-left px-6 text-right">
+                  June 2021
+                </p>
+              </div>
+              <ul className="px-6 md:py-6 py-2 md:pb-12 pb-4">
+                <li className="subText pb-2 text-xs md:text-xl text-left">
+                  - Solo project for graduation to showcase myself, my projects,
+                  experience during my time at DigitalCrafts.
+                </li>
+                <li className="subText pb-2 text-xs md:text-xl text-left">
+                  - Built from scratch using React, Router-dom, Tailwind CSS,
+                  and basic animations with Framer-motion.
+                </li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Learned React, Router-dom and Tailwind CSS through
+                  Self-study to build this project using technologies before
+                  course scope.
+                </li>
               </ul>
             </div>
             <div>
               <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
                 Professional Work Experience:
               </h3>
-              <p className="subText text-xs md:text-xl text-left px-6">
-                <span className="md:pl-6 pl-20">September 2014 – May 2019</span>
-              </p>
-              <p className="subText text-xs md:text-xl text-left px-6">
-                <span className="md:pl-6 pl-20">September 2014 – May 2019</span>
-              </p>
-              <p className="subText text-xs md:text-xl text-left px-6">
-                <span className="md:pl-6 pl-20">September 2014 – May 2019</span>
-              </p>
+              <div className="grid grid-cols-4 gap-4">
+                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
+                  First Student | School Bus Driver | Freeport, NY
+                </p>
+                <p className="subText text-s md:text-2xl text-left px-6 text-right">
+                  August 2019 – Present
+                </p>
+              </div>
+              <div className="grid grid-cols-4 gap-4">
+                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
+                  School Of Rock | Drum Instructor | Rockville Center, NY
+                </p>
+                <p className="subText text-s md:text-2xl text-left px-6 text-right">
+                  August 2019 – March 2020
+                </p>
+              </div>
+              <div className="grid grid-cols-4 gap-4">
+                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
+                  New York Community Bank | Financial Service Assistant |
+                  Hicksville, NY
+                </p>
+                <p className="subText text-s md:text-2xl text-left px-6 text-right">
+                  August 2016 – August 2019
+                </p>
+              </div>
             </div>
           </div>
 

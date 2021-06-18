@@ -34,6 +34,13 @@ const Dropdown = ({isOpen, toggle}) => {
             Skills
           </NavLink>
           <NavLink
+              to="/resume"
+              activeClassName="titleText"
+              className="inline-flex items-center py-3 px-3 my-4 rounded navButton text-xl md:text-2xl"
+            >
+              Resume
+          </NavLink>
+          <NavLink
             to="/contact"
             activeClassName="titleText bg-gray-800"
             className="inline-flex items-center py-3 px-3 my-4 rounded nextButton text-xl md:text-2xl"

@@ -5,6 +5,7 @@ import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg
 import html from "../images/Daco_4562887.png";
 import git from "../images/git.svg.png";
 import node from "../images/node.png";
+import jQuery from "../images/jquery.png"
 import sql from "../images/pngwing.com.png";
 import postgres from "../images/postgres.png"
 import express from "../images/express-js-png-5.png";
@@ -53,14 +54,18 @@ export default function Skills() {
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={git} alt="" />
-                <p className="text-center text-l md:text-2xl subText">
-                  Github
-                </p>
+                <p className="text-center text-l md:text-2xl subText">Github</p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={node} alt="" />
                 <p className="text-center text-l md:text-2xl subText">
                   Node.js
+                </p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={jQuery} alt="" />
+                <p className="text-center text-l md:text-2xl subText">
+                  jQuery
                 </p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
@@ -71,9 +76,7 @@ export default function Skills() {
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={sql} alt="" />
-                <p className="text-center text-l md:text-2xl subText">
-                  SQL
-                </p>
+                <p className="text-center text-l md:text-2xl subText">SQL</p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={sequelize} alt="" />
@@ -89,15 +92,11 @@ export default function Skills() {
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={react} alt="" />
-                <p className="text-center text-l md:text-2xl subText">
-                  React
-                </p>
+                <p className="text-center text-l md:text-2xl subText">React</p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={redux} alt="" />
-                <p className="text-center text-l md:text-2xl subText">
-                  Redux
-                </p>
+                <p className="text-center text-l md:text-2xl subText">Redux</p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={bootstrap} alt="" />
