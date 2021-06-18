@@ -39,7 +39,6 @@ export default function Projects() {
             </div>
 
             <div className="flex flex-wrap justify-between pt-8">
-
               {/* prefill for final projects */}
 
               {/* <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
@@ -149,10 +148,7 @@ export default function Projects() {
                           GitHub
                         </button>
                       </a>
-                      <a
-                        href="https://ccaressimo.github.io/Kanye-Meme/"
-                        target="_blank"
-                      >
+                      <a href="kanyememe.netlify.app" target="_blank">
                         <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           Live App
                         </button>
@@ -185,10 +181,7 @@ export default function Projects() {
                           GitHub
                         </button>
                       </a>
-                      <a
-                        href="https://ccaressimo.github.io/Tic-Tac-Toe/"
-                        target="_blank"
-                      >
+                      <a href="https://minttactoe.netlify.app" target="_blank">
                         <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           Live App
                         </button>
@@ -222,7 +215,7 @@ export default function Projects() {
                         </button>
                       </a>
                       <a
-                        href="https://ccaressimo.github.io/Concentration-Game/"
+                        href="https://geoconcentration.netlify.app"
                         target="_blank"
                       >
                         <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
