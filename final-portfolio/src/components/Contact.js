@@ -1,9 +1,27 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
 
 
 export default function Contact() {
+
+    function sendEmail(e) {
+      e.preventDefault();
+
+      emailjs
+        .sendForm("gmail", "template_z23g4ps", e.target, "user_iOBjKK4IyW8wbdtw5oZsU")
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+        e.target.reset()
+    }
+
   return (
     <motion.div
       initial={{ opacity: 0.7 }}
@@ -19,7 +37,10 @@ export default function Contact() {
 
         <section className="relative leading-normal tracking-normal pt-6">
           <div className="relative border border-gray-400 containerBg rounded-b overflow-hidden shadow-lg leading-normal tracking-normal px-4 pt-6 max-w-6xl mx-auto">
-            <form className="container max-w-4xl mx-auto text-center break-normal">
+            <form
+              onSubmit={sendEmail}
+              className="container max-w-4xl mx-auto text-center break-normal"
+            >
               <div className="w-full m-0 p-0 bg-cover bg-bottom">
                 <div className="container max-w-4xl mx-auto text-center break-normal">
                   <p className="headerText shadow-inner font-bold text-3xl md:text-5xl">
@@ -42,6 +63,7 @@ export default function Contact() {
                     id="grid-first-name"
                     type="text"
                     placeholder="First Name"
+                    name="first name"
                   />
                 </div>
                 <div className="w-full md:w-1/2 px-3">
@@ -54,6 +76,7 @@ export default function Contact() {
                     id="grid-last-name"
                     type="text"
                     placeholder="Last Name"
+                    name="last name"
                   />
                 </div>
               </div>
@@ -68,6 +91,7 @@ export default function Contact() {
                     id="email"
                     type="email"
                     placeholder="Email"
+                    name="email"
                   />
                 </div>
               </div>
@@ -81,13 +105,15 @@ export default function Contact() {
                     className=" no-resize appearance-none block w-full bg-white text-gray-700 border border-gray-800 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                     id="message"
                     placeholder="Leave a message"
+                    name="message"
                   ></textarea>
                 </div>
               </div>
               <div className="text-center pb-6">
                 <button
                   className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
-                  type="button"
+                  type="submit"
+                  value="Send"
                 >
                   Send
                 </button>

@@ -163,6 +163,9 @@ export default function Resume() {
                   August 2019 – Present
                 </p>
               </div>
+              <ul className="px-6 md:py-6 py-2">
+                <li className="subText text-xs md:text-xl text-left"></li>
+              </ul>
               <div className="grid grid-cols-4 gap-4">
                 <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
                   School Of Rock | Drum Instructor | Rockville Center, NY
@@ -171,6 +174,10 @@ export default function Resume() {
                   August 2019 – March 2020
                 </p>
               </div>
+              <ul className="px-6 md:py-6 py-2">
+                <li className="subText text-xs md:text-xl text-left"></li>
+                <li className="subText text-xs md:text-xl text-left"></li>
+              </ul>
               <div className="grid grid-cols-4 gap-4">
                 <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
                   New York Community Bank | Financial Service Assistant |
@@ -180,6 +187,11 @@ export default function Resume() {
                   August 2016 – August 2019
                 </p>
               </div>
+              <ul className="px-6 md:py-6 py-2">
+                <li className="subText text-xs md:text-xl text-left"></li>
+                <li className="subText text-xs md:text-xl text-left"></li>
+                <li className="subText text-xs md:text-xl text-left"></li>
+              </ul>
             </div>
           </div>
 

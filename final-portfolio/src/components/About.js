@@ -29,7 +29,7 @@ export default function About() {
               <div className="overflow-auto md:w-5/12 flex items-center">
                 <img src={orange} alt="" className="p-6 " />
               </div>
-              <div className="md:w-1/2 p-6">
+              <div className="md:w-1/2 px-6">
                 <p className="subText text-base md:text-2xl text-gray-100 mb-8 text-left md:text-left">
                   Hey, my name is Christopher Caressimo. I'm a
                   musician-turned-full Stack Developer from Franklin Square, New
@@ -92,7 +92,7 @@ export default function About() {
               <div className="overflow-auto md:w-5/12 flex items-center">
                 <img src={glitch} alt="" className="p-6" />
               </div>
-              <div className="md:w-1/2 p-6">
+              <div className="md:w-1/2 px-6">
                 <p className="subText text-base md:text-2xl text-gray-100 mb-8 text-left md:text-left">
                   As I stated, I have friends and family that are in the industry, and
                   during the pandemic, it led me to really consider my options
