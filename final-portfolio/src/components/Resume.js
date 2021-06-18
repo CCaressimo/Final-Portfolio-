@@ -99,8 +99,8 @@ export default function Resume() {
                   Bootstrap and vanilla CSS.
                 </li>
                 <li className="subText text-xs md:text-xl text-left">
-                  - Built with HTML, CSS/BootStrap, Javascript, Express, Node.js,
-                  and PostgreSQL.
+                  - Built with HTML, CSS/BootStrap, Javascript, Express,
+                  Node.js, and PostgreSQL.
                 </li>
               </ul>
               <div className="grid grid-cols-4 gap-4">
@@ -136,8 +136,8 @@ export default function Resume() {
               </div>
               <ul className="px-6 md:py-6 py-2 md:pb-12 pb-4">
                 <li className="subText pb-2 text-xs md:text-xl text-left">
-                  - Solo project for graduation to showcase myself, my projects, and
-                  experience during my time at DigitalCrafts.
+                  - Solo project for graduation to showcase myself, my projects,
+                  and experience during my time at DigitalCrafts.
                 </li>
                 <li className="subText pb-2 text-xs md:text-xl text-left">
                   - Built from scratch using React, Router-dom, Tailwind CSS,
@@ -221,7 +221,10 @@ export default function Resume() {
                   >
                     <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
                   </svg>
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://docs.google.com/document/d/1Mzq9SeRTY39ed-Ze_G_Oqxrq4E99GVdJ_hZeBq0SXVk/edit"
+                    target="_blank"
+                  >
                     Download
                   </a>
                 </button>
