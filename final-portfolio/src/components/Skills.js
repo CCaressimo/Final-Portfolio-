@@ -10,7 +10,7 @@ import sql from "../images/pngwing.com.png";
 import postgres from "../images/postgres.png"
 import express from "../images/express-js-png-5.png";
 import sequelize from "../images/sequelize-logo-png-transparent.png";
-import react from "../images/1280px-React-icon.svg.png";
+import react from "../images/react.png";
 import redux from "../images/redux-logo-svg-vector.svg";
 import bootstrap from "../images/Bootstrap_logo.svg.png";
 import tailwind from "../images/tailwind-css-logo.svg";
