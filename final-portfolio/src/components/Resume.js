@@ -16,8 +16,27 @@ export default function Resume() {
           alt="live at revolution"
           className="fixed object-cover w-full h-full"
         />
-        <section className="relative">
-          <h1>this is my resume</h1>
+        <section className="relative leading-normal tracking-normal pt-6">
+          <div className="relative containerBg border border-gray-400 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+            <h1 className="headerText p-6 text-3xl md:text-5xl font-bold text-center">
+              Christopher Caressimo
+            </h1>
+            <p className="subText text-xs md:text-2xl text-center">
+              835 Cornell Road Franklin Square, NY 11010, 516 263 3889,
+              c.caressimo@gmail.com
+            </p>
+            <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
+              Education:
+            </h3>
+            <ul>
+              <li className="subText text-xs md:text-xl text-left">
+                Nassau Community College
+              </li>
+              <li className="subText text-xs md:text-xl text-left">
+                H. Frank Carey High School
+              </li>
+            </ul>
+          </div>
 
           <div class="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <div class="flex flex-col w-full overflow-y-hidden container rounded-t rounded-b px-4">
@@ -30,10 +49,7 @@ export default function Resume() {
                   >
                     <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
                   </svg>
-                  <a
-                    href="#"
-                    target="_blank"
-                  >
+                  <a href="#" target="_blank">
                     Download
                   </a>
                 </button>
