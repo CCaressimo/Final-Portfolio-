@@ -28,8 +28,7 @@ export default function Resume() {
               Creative software engineer with the ability to pick up new
               languages and technologies as needed. Prior to being a software
               engineer, I worked as a School bus driver for First Student and
-              also a drum instructor at the School of Rock teaching kids from
-              ages 6-18 and special need kids as well.
+              also a drum instructor at the School of Rock.
             </p>
             <div>
               <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
@@ -38,7 +37,7 @@ export default function Resume() {
               <ul className="px-6 md:py-6 py-2">
                 <li className="subText text-xs md:text-xl text-left">
                   - HTML, CSS, JavaScript, Github, Node.js, Express.js, SQL,
-                  Sequelize, React/Redux, Bootstrap, and Tailwindcss.
+                  Sequelize, React, Redux, Bootstrap, and Tailwindcss.
                 </li>
               </ul>
             </div>
@@ -76,7 +75,7 @@ export default function Resume() {
             </div>
             <div>
               <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
-                Work Experience:
+                Software Development Portfolio:
               </h3>
               <div className="grid grid-cols-4 gap-4">
                 <p className="subText text-s md:text-xl text-left px-6 col-span-3 h-4">
@@ -100,7 +99,7 @@ export default function Resume() {
                   Bootstrap and vanilla CSS.
                 </li>
                 <li className="subText text-xs md:text-xl text-left">
-                  - Built with HTML, CSS/BootStrap, Javasript, Express, Node.js,
+                  - Built with HTML, CSS/BootStrap, Javascript, Express, Node.js,
                   and PostgreSQL.
                 </li>
               </ul>
@@ -137,7 +136,7 @@ export default function Resume() {
               </div>
               <ul className="px-6 md:py-6 py-2 md:pb-12 pb-4">
                 <li className="subText pb-2 text-xs md:text-xl text-left">
-                  - Solo project for graduation to showcase myself, my projects,
+                  - Solo project for graduation to showcase myself, my projects, and
                   experience during my time at DigitalCrafts.
                 </li>
                 <li className="subText pb-2 text-xs md:text-xl text-left">
