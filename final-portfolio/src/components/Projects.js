@@ -103,9 +103,10 @@ export default function Projects() {
                       Mixafy
                     </div>
                     <p className="subText text-xl text-base px-6 mb-5">
-                      A Spotify playlist generator that allows you to create a
-                      randomized playlist. Mixafy utilizes express, Sequelize,
-                      and Bootstrap.
+                      An application that allows the user to generate random
+                      playlists between selected genres or one specific genre
+                      from a database of handpicked songs from Spotify. Mixafy
+                      utilizes Express, Sequelize, and Bootstrap.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -131,7 +132,7 @@ export default function Projects() {
                   <a className="flex flex-wrap no-underline hover:no-underline">
                     <img src={kanye} className="h-64 w-full rounded-t pb-6" />
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
-                      Kanye meme
+                      Advice from Kanye
                     </div>
                     <p className="subText text-xl text-base px-6 mb-5">
                       An App that utilizes the Kanye Quotes api, and Flickr api

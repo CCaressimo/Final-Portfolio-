@@ -105,7 +105,7 @@ export default function Resume() {
               </ul>
               <div className="grid grid-cols-4 gap-4">
                 <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
-                  Kanye Meme
+                  Advice from Kanye
                 </p>
                 <p className="subText text-s md:text-2xl text-left px-6 text-right">
                   April 2021
