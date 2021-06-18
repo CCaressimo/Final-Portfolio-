@@ -9,6 +9,7 @@ import Contact from "./components/Contact"
 import Resume from "./components/Resume"
 import NavBar from "./components/NavBar"
 import Dropdown from "./components/Dropdown"
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,18 +34,19 @@ const App = () => {
   
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <NavBar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
-          <AnimatePresence exitBeforeEnter>
-            <Switch>
-              <Route component={Home} path="/" exact />
-              <Route component={About} path="/about" />
-              <Route component={Projects} path="/projects" />
-              <Route component={Skills} path="/skills" />
-              <Route component={Resume} path="/resume"/>
-              <Route component={Contact} path="/contact" />
-            </Switch>
-          </AnimatePresence>
+      <AnimatePresence exitBeforeEnter>
+        <Switch>
+          <Route component={Home} path="/" exact />
+          <Route component={About} path="/about" />
+          <Route component={Projects} path="/projects" />
+          <Route component={Skills} path="/skills" />
+          <Route component={Resume} path="/resume" />
+          <Route component={Contact} path="/contact" />
+        </Switch>
+      </AnimatePresence>
     </BrowserRouter>
   );
 }

@@ -39,7 +39,10 @@ export default function Projects() {
             </div>
 
             <div className="flex flex-wrap justify-between pt-8">
-              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+
+              {/* prefill for final projects */}
+
+              {/* <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="flex flex-wrap no-underline hover:no-underline">
                     <img src="#" className="h-64 w-full rounded-t pb-6" />
@@ -92,8 +95,8 @@ export default function Projects() {
                     </div>
                   </a>
                 </div>
-              </div>
-              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+              </div> */}
+              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="flex flex-wrap no-underline hover:no-underline">
                     <img src={mixafy} className="h-64 w-full rounded-t pb-6" />
@@ -124,7 +127,7 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="flex flex-wrap no-underline hover:no-underline">
                     <img src={kanye} className="h-64 w-full rounded-t pb-6" />
@@ -158,7 +161,7 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg">
                     <img
@@ -194,7 +197,7 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg">
                     <img
