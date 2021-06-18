@@ -4,9 +4,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
-import concentration from "../images/concentration.PNG";
-import kanye from "../images/kanye.PNG"
-import mixafy from "../images/mixafy.PNG";
+import concentration from "../images/concentration.gif";
+import tictactoe from "../images/tictactoe.gif"
+import kanye from "../images/kanyememe.gif"
+import mixafy from "../images/mixafy.gif";
 
 export default function Projects() {
   return (
@@ -161,7 +162,7 @@ export default function Projects() {
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg">
                     <img
-                      src={concentration}
+                      src={tictactoe}
                       className="h-64 w-full rounded-t pb-6"
                     />
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
@@ -206,7 +207,6 @@ export default function Projects() {
                     <p className="subText text-xl text-base px-6 pb-12 mb-5">
                       A very simple rendition of Concentration built with
                       vanilla Javascript, HTML5, and CSS.
-
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
