@@ -22,20 +22,107 @@ export default function Resume() {
               Christopher Caressimo
             </h1>
             <p className="subText text-xs md:text-2xl text-center">
-              835 Cornell Road Franklin Square, NY 11010, 516 263 3889,
-              c.caressimo@gmail.com
+              Full Stack Web Developer
             </p>
-            <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
-              Education:
-            </h3>
-            <ul>
-              <li className="subText text-xs md:text-xl text-left">
-                Nassau Community College
-              </li>
-              <li className="subText text-xs md:text-xl text-left">
-                H. Frank Carey High School
-              </li>
-            </ul>
+            <p className="subText p-6 text-xs md:text-xl text-center">
+              Creative software engineer with the ability to pick up new
+              languages and technologies as needed. Prior to being a software
+              engineer, I worked as a School bus driver for First Student and
+              also a drum instructor at the School of Rock teaching kids from
+              ages 6-18 and special need kids as well.
+            </p>
+            <div>
+              <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
+                Software Development Skills:
+              </h3>
+              <ul className="px-6 md:py-6 py-2">
+                <li className="subText text-xs md:text-xl text-left">
+                  -HTML, CSS, JavaScript, Github, Node.js, Express.js, SQL,
+                  Sequelize, React/Redux, Bootstrap, and Tailwindcss.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
+                Education:
+              </h3>
+              <p className="subText text-xs md:text-xl text-left px-6">
+                DigitalCrafts | Certificate in Software Engineering | Atlanta,
+                GA
+                <span className="md:pl-36 pl-24">January 2021 – July 2021</span>
+              </p>
+              <ul className="px-6 md:py-6 py-2">
+                <li className="subText text-xs md:text-xl text-left">
+                  -Software engineering training program covering full-stack
+                  development including, but not limited to JavaScript, Python,
+                  including an emphasis on cutting-edge frameworks like
+                  React/Redux and server-side technologies including Node.js,
+                  Express, and PostgreSQL.
+                </li>
+              </ul>
+              <p className="subText text-xs md:text-xl text-left px-6">
+                Nassau Community College | Associates in Arts & Sciences |
+                Garden City, NY
+                <span className="md:pl-6 pl-20">September 2014 – May 2019</span>
+              </p>
+            </div>
+            <div>
+              <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
+                Work Experience:
+              </h3>
+              <p className="subText text-xs md:text-xl text-left px-6">
+                Mixafy
+                <span className="md:pl-6 pl-20">May 2021</span>
+              </p>
+              <ul className="px-6 md:py-6 py-2">
+                <li className="subText pb-2 text-xs md:text-xl text-left">
+                  -Lead developer in a team of 2, creating an application that
+                  allows the user to generate random playlists between selected
+                  genres or one specific genre from a database of handpicked
+                  songs from Spotify.
+                </li>
+                <li className="subText pb-2 text-xs md:text-xl text-left">
+                  -Responsibilities include setting up a database using
+                  Beekeeper and PostgreSQL, linking back-end with front-end
+                  utilizing Express and Node.js, and creating the UI with
+                  Bootstrap and vanilla CSS.
+                </li>
+                <li className="subText text-xs md:text-xl text-left">
+                  -Built with HTML, CSS/BootStrap, Javasript, Express, Node.js,
+                  and PostgreSQL.
+                </li>
+              </ul>
+              <p className="subText text-xs md:text-xl text-left px-6">
+                Kanye Meme<span className="md:pl-6 pl-20">April 2021</span>
+              </p>
+              <ul className="px-6 md:py-6 py-2">
+                <li className="subText pb-2 text-xs md:text-xl text-left">-</li>
+                <li className="subText pb-2 text-xs md:text-xl text-left">-</li>
+                <li className="subText text-xs md:text-xl text-left px-6">-</li>
+              </ul>
+              <p className="subText text-xs md:text-xl text-left px-6">
+                Tik-Tac-Toe<span className="md:pl-6 pl-20">March 2021</span>
+              </p>
+              <ul className="px-6 md:py-6 py-2">
+                <li className="subText pb-2 text-xs md:text-xl text-left">-</li>
+                <li className="subText pb-2 text-xs md:text-xl text-left">-</li>
+                <li className="subText text-xs md:text-xl text-left px-6">-</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
+                Professional Work Experience:
+              </h3>
+              <p className="subText text-xs md:text-xl text-left px-6">
+                <span className="md:pl-6 pl-20">September 2014 – May 2019</span>
+              </p>
+              <p className="subText text-xs md:text-xl text-left px-6">
+                <span className="md:pl-6 pl-20">September 2014 – May 2019</span>
+              </p>
+              <p className="subText text-xs md:text-xl text-left px-6">
+                <span className="md:pl-6 pl-20">September 2014 – May 2019</span>
+              </p>
+            </div>
           </div>
 
           <div class="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
