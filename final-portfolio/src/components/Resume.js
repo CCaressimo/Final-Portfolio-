@@ -210,8 +210,8 @@ export default function Resume() {
             </div>
           </div>
 
-          <div class="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-            <div class="flex flex-col w-full overflow-y-hidden container rounded-t rounded-b px-4">
+          <div class="px-6 mx-auto items-center">
+            <div class="w-full overflow-y-hidden rounded-t rounded-b px-4">
               <div className="text-center py-6">
                 <button class="headerText nextButton border border-gray-200 py-2 px-4 shadow rounded inline-flex items-center">
                   <svg
@@ -232,8 +232,8 @@ export default function Resume() {
             </div>
           </div>
 
-          <div class="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-            <div class="flex flex-col w-full overflow-y-hidden container rounded-t rounded-b px-4">
+          <div class="px-6 mx-auto items-center">
+            <div class="w-full overflow-y-hidden rounded-t rounded-b px-4">
               <nav>
                 <div className="text-center py-6">
                   <NavLink

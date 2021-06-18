@@ -39,10 +39,10 @@ export default function Contact() {
           <div className="relative border border-gray-400 containerBg rounded-b overflow-hidden shadow-lg leading-normal tracking-normal px-4 pt-6 max-w-6xl mx-auto">
             <form
               onSubmit={sendEmail}
-              className="container max-w-4xl mx-auto text-center break-normal"
+              className="max-w-4xl mx-auto text-center break-normal"
             >
               <div className="w-full m-0 p-0 bg-cover bg-bottom">
-                <div className="container max-w-4xl mx-auto text-center break-normal">
+                <div className="max-w-4xl mx-auto text-center break-normal">
                   <p className="headerText shadow-inner font-bold text-3xl md:text-5xl">
                     Contact Me
                   </p>
@@ -126,7 +126,7 @@ export default function Contact() {
               <a
                 href="https://github.com/CCaressimo"
                 target="_blank"
-                className="pr-4"
+                className="px-4"
               >
                 <button className="headerText nextButton py-2 px-4 border border-gray-200 rounded shadow">
                   Github
@@ -138,7 +138,7 @@ export default function Contact() {
               <a
                 href="https://www.linkedin.com/in/christopheracaressimo/"
                 target="_blank"
-                className="pr-4"
+                className=""
               >
                 <button className="headerText nextButton py-2 px-4 border border-gray-200 rounded shadow">
                   LinkedIn

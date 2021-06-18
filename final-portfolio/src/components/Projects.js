@@ -311,8 +311,8 @@ export default function Projects() {
             </div>
           </div>    */}
 
-          <div className="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-            <div className="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
+          <div className="px-6 mx-auto items-center">
+            <div className="w-full overflow-y-hidden rounded-t rounded-b px-4">
               <nav>
                 <div className="text-center py-6">
                   <NavLink

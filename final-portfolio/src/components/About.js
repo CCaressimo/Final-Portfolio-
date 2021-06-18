@@ -41,7 +41,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="mb-4 p-6 p-6 text-left md:text-left">
+            <div className="mb-4 p-6 text-left md:text-left">
               <p className="subText text-base md:text-2xl text-gray-100">
                 You'll often find me playing survival horror and mil sim
                 games, tinkering and driving my 07 WRX, or writing and goofing
@@ -60,7 +60,7 @@ export default function About() {
             <div className="object-right">
               <img src={reino} alt="" className="object-contain h-72 w-full" />
             </div>
-            <div className="mb-4 p-6 p-6 text-left md:text-left">
+            <div className="mb-4 p-6 text-left md:text-left">
               <p className="subText text-base md:text-2xl text-gray-100">
                 As I was growing up, I had a few family members and friends that
                 are in the tech field who brought up the idea of going into this field.
@@ -108,7 +108,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="mb-4 p-6 p-6 text-left md:text-left">
+            <div className="mb-4 p-6 text-left md:text-left">
               <p className="subText leading-normal text-base md:text-2xl text-gray-100">
                 During my time in my cohort, I've made strong connections and
                 friendships with my classmates. I've developed my team building
@@ -122,13 +122,13 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-            <div className="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
+          <div className="px-6 mx-auto items-center">
+            <div className="w-full overflow-y-hidden rounded-t rounded-b px-4">
               <nav>
                 <div className="text-center py-6">
                   <NavLink
                     to="/projects"
-                    className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow transition ease-in-out"
+                    className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
                   >
                     Projects
                   </NavLink>

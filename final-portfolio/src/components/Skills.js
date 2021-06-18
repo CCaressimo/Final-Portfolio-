@@ -31,8 +31,8 @@ export default function Skills() {
         />
 
         <section className="relative justify-center min-h-screen pt-6">
-          <div className="w-full pt-32 flex flex-col flex-grow flex-shrink">
-            <div className="container containerBg rounded-t rounded-b px-auto md:px-0 max-w-6xl mx-auto -mt-32 ">
+          <div className="w-full px-4 md:px-0 max-w-6xl mx-auto flex flex-col flex-grow flex-shrink">
+            <div className="container containerBg rounded-t rounded-b px-auto md:px-0 max-w-6xl mx-auto">
               <div className="w-full m-0 p-0 bg-cover bg-bottom">
                 <div className="container max-w-4xl mx-auto p-6 text-center break-normal">
                   <p className="headerText font-extrabold text-3xl md:text-5xl">
@@ -64,9 +64,7 @@ export default function Skills() {
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={jQuery} alt="" />
-                <p className="text-center text-l md:text-2xl subText">
-                  jQuery
-                </p>
+                <p className="text-center text-l md:text-2xl subText">jQuery</p>
               </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={express} alt="" />
@@ -112,8 +110,8 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-            <div className="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
+          <div className="px-6 mx-auto items-center">
+            <div className="w-full overflow-y-hidden rounded-t rounded-b px-4">
               <nav>
                 <div className="text-center py-6">
                   <NavLink
