@@ -27,7 +27,7 @@ export default function Home() {
                   Full Stack Web Developer//Musician
                 </p>
                 <nav>
-                  <div className="text-center py-6">
+                  <div className="text-center pt-6">
                     <NavLink
                       to="/about"
                       className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
@@ -36,6 +36,9 @@ export default function Home() {
                     </NavLink>
                   </div>
                 </nav>
+                <h3 className="subText text-xs text-center md:text-right py-6">
+                  Built with React and Tailwind CSS
+                </h3>
               </div>
             </div>
           </section>
