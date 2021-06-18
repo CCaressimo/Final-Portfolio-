@@ -148,7 +148,10 @@ export default function Projects() {
                           GitHub
                         </button>
                       </a>
-                      <a href="https://kanyememe.netlify.app" target="_blank">
+                      <a
+                        href="https://ccaressimo.github.io/Kanye-Meme/"
+                        target="_blank"
+                      >
                         <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           Live App
                         </button>
