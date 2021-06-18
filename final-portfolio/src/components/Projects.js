@@ -167,11 +167,9 @@ export default function Projects() {
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Tik-Tac-Toe
                     </div>
-                    <p className="subText text-xl text-base px-6 mb-5">
+                    <p className="subText text-xl text-base px-6 pb-16 mb-8">
                       A basic rendition of Tik-Tac-Toe built with vanilla
                       Javascript, HTML5, and CSS.
-                      <br />
-                      <br />
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -205,11 +203,10 @@ export default function Projects() {
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Concentration
                     </div>
-                    <p className="subText text-xl text-base px-6 mb-5">
+                    <p className="subText text-xl text-base px-6 pb-12 mb-5">
                       A very simple rendition of Concentration built with
                       vanilla Javascript, HTML5, and CSS.
-                      <br />
-                      <br />
+
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -235,7 +232,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-{/* 
+          {/* 
           <br />
 
           <div className="container containerBg border border-gray-400 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
@@ -329,7 +326,6 @@ export default function Projects() {
               </nav>
             </div>
           </div>
-
         </section>
       </main>
     </motion.div>
