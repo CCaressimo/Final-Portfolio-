@@ -27,7 +27,7 @@ export default function Projects() {
             <div className="w-full m-0 p-6 bg-cover bg-bottom">
               <div className="container max-w-4xl mx-auto text-center break-normal">
                 <p className="headerText font-bold shadow-inner text-3xl md:text-5xl">
-                  Projects
+                  Completed Projects
                 </p>
                 <br />
                 <p className="subText text-xl md:text-2xl">
@@ -240,6 +240,86 @@ export default function Projects() {
               </div>
             </div>
           </div>
+
+          <br />
+
+          <div className="container containerBg border border-gray-400 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
+            <div className="w-full m-0 p-6 bg-cover bg-bottom">
+              <div className="container max-w-4xl mx-auto text-center break-normal">
+                <p className="headerText font-bold shadow-inner text-3xl md:text-5xl">
+                    Current Projects
+                </p>
+                <br />
+                <p className="subText text-xl md:text-2xl">
+                    Here are some of the projects that I am currently working on
+                    with my Band mates
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap justify-between pt-8">         
+              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
+                  <a className="flex flex-wrap no-underline hover:no-underline">
+                    <img src="#" className="h-64 w-full rounded-t pb-6" />
+                    <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
+                      [Null] 
+                    </div>
+                    <p className="subText text-xl text-base px-6 mb-5">
+                      Band site
+                    </p>
+                    <div className="w-full flex justify-center pb-4 content-center">
+                      <a
+                        href="https://github.com/CCaressimo"
+                        target="_blank"
+                        className="pr-4"
+                      >
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          GitHub
+                        </button>
+                      </a>
+                      <a href="#" target="_blank">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          Showcase
+                        </button>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            
+              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
+                  <a className="flex flex-wrap no-underline hover:no-underline">
+                    <img src="#" className="h-64 w-full rounded-t pb-6" />
+                    <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
+                      TRASHPLXNET
+                    </div>
+                    <p className="subText text-xl text-base px-6 mb-5">
+                      Clothing site
+                    </p>
+                    <div className="w-full flex justify-center pb-4 content-center">
+                      <a
+                        href="https://github.com/CCaressimo"
+                        target="_blank"
+                        className="pr-4"
+                      >
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          GitHub
+                        </button>
+                      </a>
+                      <a href="#" target="_blank">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          Live App
+                        </button>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>   
+
           <div className="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <div className="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
               <nav>
@@ -254,6 +334,7 @@ export default function Projects() {
               </nav>
             </div>
           </div>
+
         </section>
       </main>
     </motion.div>
