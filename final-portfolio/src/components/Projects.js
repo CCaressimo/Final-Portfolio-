@@ -40,23 +40,104 @@ export default function Projects() {
             <div className="flex flex-wrap justify-between pt-8">
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
-                  <a className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg">
-                    <img
-                      src={concentration}
-                      className="h-64 w-full rounded-t pb-6"
-                    />
+                  <a className="flex flex-wrap no-underline hover:no-underline">
+                    <img src="#" className="h-64 w-full rounded-t pb-6" />
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
-                      Concentration
+                      Capstone
+                    </div>
+                    <p className="subText text-xl text-base px-6 mb-5"></p>
+                    <div className="w-full flex justify-center pb-4 content-center">
+                      <a
+                        href="https://github.com/CCaressimo"
+                        target="_blank"
+                        className="pr-4"
+                      >
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          GitHub
+                        </button>
+                      </a>
+                      <a href="#" target="_blank">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          Live App
+                        </button>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
+                  <a className="flex flex-wrap no-underline hover:no-underline">
+                    <img src="#" className="h-64 w-full rounded-t pb-6" />
+                    <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
+                      React Project
+                    </div>
+                    <p className="subText text-xl text-base px-6 mb-5"></p>
+                    <div className="w-full flex justify-center pb-4 content-center">
+                      <a
+                        href="https://github.com/CCaressimo"
+                        target="_blank"
+                        className="pr-4"
+                      >
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          GitHub
+                        </button>
+                      </a>
+                      <a href="#" target="_blank">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          Live App
+                        </button>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
+                  <a className="flex flex-wrap no-underline hover:no-underline">
+                    <img src={mixafy} className="h-64 w-full rounded-t pb-6" />
+                    <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
+                      Mixafy
                     </div>
                     <p className="subText text-xl text-base px-6 mb-5">
-                      A very simple rendition of Concentration built with
-                      vanilla Javascript, HTML5, and CSS.
-                      <br />
-                      <br />
+                      A Spotify playlist generator that allows you to create a
+                      randomized playlist. Mixafy utilizes express, Sequelize,
+                      and Bootstrap.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
-                        href="https://github.com/CCaressimo/Concentration-Game"
+                        href="https://github.com/CCaressimo/Mixafy"
+                        target="_blank"
+                        className="pr-4"
+                      >
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          GitHub
+                        </button>
+                      </a>
+                      <a href="https://mixafy.herokuapp.com" target="_blank">
+                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
+                          Live App
+                        </button>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
+                  <a className="flex flex-wrap no-underline hover:no-underline">
+                    <img src={kanye} className="h-64 w-full rounded-t pb-6" />
+                    <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
+                      Kanye meme
+                    </div>
+                    <p className="subText text-xl text-base px-6 mb-5">
+                      An App that utilizes the Kanye Quotes api, and Flickr api
+                      to generate random memes of Kanye West. The UI was built
+                      using Tailwind CSS.
+                    </p>
+                    <div className="w-full flex justify-center pb-4 content-center">
+                      <a
+                        href="https://github.com/CCaressimo/Front-End"
                         target="_blank"
                         className="pr-4"
                       >
@@ -65,7 +146,7 @@ export default function Projects() {
                         </button>
                       </a>
                       <a
-                        href="https://ccaressimo.github.io/Concentration-Game/"
+                        href="https://ccaressimo.github.io/Kanye-Meme/"
                         target="_blank"
                       >
                         <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
@@ -76,7 +157,6 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg">
@@ -115,22 +195,25 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
-                  <a className="flex flex-wrap no-underline hover:no-underline">
-                    <img src={kanye} className="h-64 w-full rounded-t pb-6" />
+                  <a className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg">
+                    <img
+                      src={concentration}
+                      className="h-64 w-full rounded-t pb-6"
+                    />
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
-                      Kanye meme
+                      Concentration
                     </div>
                     <p className="subText text-xl text-base px-6 mb-5">
-                      An App that utilizes the Kanye Quotes api, and Flickr api
-                      to generate random memes of Kanye West. The UI was built
-                      using Tailwind CSS.
+                      A very simple rendition of Concentration built with
+                      vanilla Javascript, HTML5, and CSS.
+                      <br />
+                      <br />
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
-                        href="https://github.com/CCaressimo/Front-End"
+                        href="https://github.com/CCaressimo/Concentration-Game"
                         target="_blank"
                         className="pr-4"
                       >
@@ -139,97 +222,9 @@ export default function Projects() {
                         </button>
                       </a>
                       <a
-                        href="https://ccaressimo.github.io/Kanye-Meme/"
+                        href="https://ccaressimo.github.io/Concentration-Game/"
                         target="_blank"
                       >
-                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
-                          Live App
-                        </button>
-                      </a>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
-                  <a className="flex flex-wrap no-underline hover:no-underline">
-                    <img src={mixafy} className="h-64 w-full rounded-t pb-6" />
-                    <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
-                      Mixafy
-                    </div>
-                    <p className="subText text-xl text-base px-6 mb-5">
-                      A Spotify playlist generator that allows you to create a
-                      randomized playlist. Mixafy utilizes express, Sequelize,
-                      and Bootstrap.
-                    </p>
-                    <div className="w-full flex justify-center pb-4 content-center">
-                      <a
-                        href="https://github.com/CCaressimo/Mixafy"
-                        target="_blank"
-                        className="pr-4"
-                      >
-                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
-                          GitHub
-                        </button>
-                      </a>
-                      <a href="https://mixafy.herokuapp.com" target="_blank">
-                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
-                          Live App
-                        </button>
-                      </a>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
-                  <a className="flex flex-wrap no-underline hover:no-underline">
-                    <img src="#" className="h-64 w-full rounded-t pb-6" />
-                    <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
-                      React Project
-                    </div>
-                    <p className="subText text-xl text-base px-6 mb-5"></p>
-                    <div className="w-full flex justify-center pb-4 content-center">
-                      <a
-                        href="https://github.com/CCaressimo"
-                        target="_blank"
-                        className="pr-4"
-                      >
-                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
-                          GitHub
-                        </button>
-                      </a>
-                      <a href="#" target="_blank">
-                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
-                          Live App
-                        </button>
-                      </a>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
-                  <a className="flex flex-wrap no-underline hover:no-underline">
-                    <img src="#" className="h-64 w-full rounded-t pb-6" />
-                    <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
-                      Capstone
-                    </div>
-                    <p className="subText text-xl text-base px-6 mb-5"></p>
-                    <div className="w-full flex justify-center pb-4 content-center">
-                      <a
-                        href="https://github.com/CCaressimo"
-                        target="_blank"
-                        className="pr-4"
-                      >
-                        <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
-                          GitHub
-                        </button>
-                      </a>
-                      <a href="#" target="_blank">
                         <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           Live App
                         </button>
@@ -240,7 +235,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-
+{/* 
           <br />
 
           <div className="container containerBg border border-gray-400 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
@@ -318,7 +313,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </div>   
+          </div>    */}
 
           <div className="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <div className="flex flex-col w-full overflow-y-hidden transparent container rounded-t rounded-b px-4">
