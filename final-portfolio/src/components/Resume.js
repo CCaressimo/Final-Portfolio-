@@ -164,7 +164,13 @@ export default function Resume() {
                 </p>
               </div>
               <ul className="px-6 md:py-6 py-2">
-                <li className="subText text-xs md:text-xl text-left"></li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Drove for grades k-12th and BOCES in Nassau and Suffolk
+                  county.
+                </li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Developed better time management and communication skills.
+                </li>
               </ul>
               <div className="grid grid-cols-4 gap-4">
                 <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
@@ -175,8 +181,13 @@ export default function Resume() {
                 </p>
               </div>
               <ul className="px-6 md:py-6 py-2">
-                <li className="subText text-xs md:text-xl text-left"></li>
-                <li className="subText text-xs md:text-xl text-left"></li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Taught kids ages 6-18 and kids that special needs drums,
+                  sheet reading, and assisted in live show production.
+                </li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Developed teaching, team building, and leadership skills.
+                </li>
               </ul>
               <div className="grid grid-cols-4 gap-4">
                 <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
@@ -188,9 +199,14 @@ export default function Resume() {
                 </p>
               </div>
               <ul className="px-6 md:py-6 py-2">
-                <li className="subText text-xs md:text-xl text-left"></li>
-                <li className="subText text-xs md:text-xl text-left"></li>
-                <li className="subText text-xs md:text-xl text-left"></li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Conducted traditional bank transactions, wires, foreign
+                  currency transactions, and set up customer accounts.
+                </li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Developed communication, team building, customer service,
+                  sales, and money management skills
+                </li>
               </ul>
             </div>
           </div>
