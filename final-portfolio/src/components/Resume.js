@@ -222,7 +222,7 @@ export default function Resume() {
                     <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
                   </svg>
                   <a
-                    href="https://docs.google.com/document/d/1Mzq9SeRTY39ed-Ze_G_Oqxrq4E99GVdJ_hZeBq0SXVk/edit"
+                    href="https://docs.google.com/document/d/1Mzq9SeRTY39ed-Ze_G_Oqxrq4E99GVdJ_hZeBq0SXVk/edit?usp=sharing"
                     target="_blank"
                   >
                     Download
