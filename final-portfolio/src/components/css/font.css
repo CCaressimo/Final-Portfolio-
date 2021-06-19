@@ -42,3 +42,14 @@
     font-family: cinzel !important;
     color: #F0F3F5;
 }
+
+.resText {
+    font-family: cinzel !important;
+    color: #F0F3F5;
+    transition: .7s;
+}
+
+.resText:hover {
+  color: #FEC601;
+  transition: .7s;
+}

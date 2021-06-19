@@ -78,9 +78,13 @@ export default function Resume() {
                 Software Development Portfolio:
               </h3>
               <div className="grid grid-cols-4 gap-4">
-                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
+                <a
+                  href="https://github.com/CCaressimo/Mixafy"
+                  target="_blank"
+                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
+                >
                   Mixafy
-                </p>
+                </a>
                 <p className="subText text-s md:text-2xl text-left px-6 text-right">
                   May 2021
                 </p>
@@ -104,9 +108,13 @@ export default function Resume() {
                 </li>
               </ul>
               <div className="grid grid-cols-4 gap-4">
-                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
+                <a
+                  href="https://github.com/CCaressimo/Kanye-Meme"
+                  target="_blank"
+                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
+                >
                   Advice from Kanye
-                </p>
+                </a>
                 <p className="subText text-s md:text-2xl text-left px-6 text-right">
                   April 2021
                 </p>
@@ -127,9 +135,13 @@ export default function Resume() {
                 </li>
               </ul>
               <div className="grid grid-cols-4 gap-4">
-                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
+                <a
+                  href="https://github.com/CCaressimo/Final-Portfolio-"
+                  target="_blank"
+                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
+                >
                   Portfolio
-                </p>
+                </a>
                 <p className="subText text-s md:text-2xl text-left px-6 text-right">
                   June 2021
                 </p>
