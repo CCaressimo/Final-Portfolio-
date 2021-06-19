@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import image from "../images/83316363_2727986553927466_8086501138565693440_n.jpg";
 import html from "../images/Daco_4562887.png";
-import git from "../images/git.svg.png";
+import git from "../images/github.png";
 import node from "../images/node.png";
 import jQuery from "../images/jquery.png"
 import sql from "../images/pngwing.com.png";
