@@ -8,6 +8,7 @@ import concentration from "../images/concentration.gif";
 import tictactoe from "../images/tictactoe.gif"
 import kanye from "../images/kanyememe.gif"
 import mixafy from "../images/mixafy.gif";
+import tetris from "../images/tetris.gif"
 
 export default function Projects() {
   return (
@@ -67,18 +68,28 @@ export default function Projects() {
                     </div>
                   </a>
                 </div>
-              </div>
-              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+              </div>*/}
+              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="flex flex-wrap no-underline hover:no-underline">
-                    <img src="#" className="h-64 w-full rounded-t pb-6" />
+                    <img src={tetris} className="h-64 w-full rounded-t pb-6" />
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
-                      React Project
+                      Dev Arcade
                     </div>
-                    <p className="subText text-xl text-base px-6 mb-5"></p>
+                    <p className="subText text-xl text-base px-6 mb-5">
+                      DigitalCraft Flex Jan2021 Student/Teacher collaboration,
+                      where the Teachers built the home page and implemented a
+                      backend, and Students build games and linked to the
+                      backend (**not a functioning feature as of yet**)
+                      <br />
+                      My team was tasked with developing the game Tetris which
+                      utilized React and Redux to create a functioning game
+                      board, and stores data the keeps track of the score and
+                      pieces that have been placed on the board.
+                    </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
-                        href="https://github.com/CCaressimo"
+                        href="https://github.com/CCaressimo/Tetris-app"
                         target="_blank"
                         className="pr-4"
                       >
@@ -86,7 +97,10 @@ export default function Projects() {
                           GitHub
                         </button>
                       </a>
-                      <a href="#" target="_blank">
+                      <a
+                        href="https://dev-arcade.herokuapp.com"
+                        target="_blank"
+                      >
                         <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           Live App
                         </button>
@@ -94,7 +108,7 @@ export default function Projects() {
                     </div>
                   </a>
                 </div>
-              </div> */}
+              </div>
               <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="flex flex-wrap no-underline hover:no-underline">
@@ -103,10 +117,14 @@ export default function Projects() {
                       Mixafy
                     </div>
                     <p className="subText text-xl text-base px-6 mb-5">
-                      An application that allows the user to generate random
-                      playlists between selected genres or one specific genre
-                      from a database of handpicked songs from Spotify. Mixafy
-                      utilizes Express, Sequelize, and Bootstrap.
+                      Mixafy is a backend driven application that utilizes a
+                      hand built database that stores songs with the proper
+                      information and links from Spotify. This app allows the
+                      user to generate random playlists between selected genres
+                      or one specific genre from a database of handpicked songs
+                      from Spotify. By using SQL commands, we are able to fetch
+                      embed links from the Database to populate the front end.{" "}
+                      <br /> Mixafy utilizes Express, Sequelize, and Bootstrap.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -127,17 +145,20 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="flex flex-wrap no-underline hover:no-underline">
                     <img src={kanye} className="h-64 w-full rounded-t pb-6" />
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Advice from Kanye
                     </div>
-                    <p className="subText text-xl text-base px-6 pb-12 mb-7">
-                      An App that utilizes the Kanye Quotes api, and Flickr api
-                      to generate random memes of Kanye West. The UI was built
-                      using Tailwind CSS.
+                    <p className="subText text-xl text-base px-6 pb-6 ">
+                      Advice from Kanye is a fun little app that utilizes the
+                      Kanye Quotes api, and Flickr api to generate random memes
+                      of Kanye West. The app uses fetch requests to pull
+                      randomized quotes and also shuffle through images to
+                      populate the front-end. The UI was built using Tailwind
+                      CSS.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -161,7 +182,7 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg">
                     <img
@@ -171,9 +192,11 @@ export default function Projects() {
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Tik-Tac-Toe
                     </div>
-                    <p className="subText text-xl text-base px-6 pb-16 mb-8">
+                    <p className="subText text-xl text-base px-6 pb-16 mb-11">
                       A basic rendition of Tik-Tac-Toe built with vanilla
-                      Javascript, HTML5, and CSS.
+                      Javascript, HTML5, and CSS. We used dom manipulation to
+                      switch between players, to fill the board with X's and
+                      O's, and also to determine a winner, or a tie.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
@@ -194,7 +217,7 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+              <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="max-w-sm rounded-t rounded-b overflow-hidden shadow-lg">
                     <img
@@ -204,9 +227,11 @@ export default function Projects() {
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
                       Concentration
                     </div>
-                    <p className="subText text-xl text-base px-6 pb-12 mb-5">
+                    <p className="subText text-xl text-base px-6 pb-24 mb-16">
                       A very simple rendition of Concentration built with
-                      vanilla Javascript, HTML5, and CSS.
+                      vanilla Javascript, HTML5, and CSS. We used Dom
+                      manipulation to randomize the array of numbers, and to
+                      remove pairs.
                     </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a

@@ -22,7 +22,7 @@ export default function Resume() {
               Christopher Caressimo
             </h1>
             <p className="subText text-xs md:text-2xl text-center">
-              Full Stack Web Developer
+              Full Stack Software Developer
             </p>
             <p className="subText p-6 text-xs md:text-xl text-center">
               Creative software engineer with the ability to pick up new
@@ -79,59 +79,29 @@ export default function Resume() {
               </h3>
               <div className="grid grid-cols-4 gap-4">
                 <a
-                  href="https://github.com/CCaressimo/Mixafy"
+                  href="https://github.com/CCaressimo/Tetris-app"
                   target="_blank"
                   className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
                 >
-                  Mixafy
+                  Dev Arcade
                 </a>
                 <p className="subText text-s md:text-2xl text-left px-6 text-right">
-                  May 2021
+                  July 2021
                 </p>
               </div>
               <ul className="px-6 md:py-6 py-2 md:pb-12 pb-4">
                 <li className="subText pb-2 text-xs md:text-xl text-left">
-                  - Lead developer in a team of 2, creating an application that
-                  allows the user to generate random playlists between selected
-                  genres or one specific genre from a database of handpicked
-                  songs from Spotify.
+                  - A DigitalCraft Flex Jan 2021 Student/Teacher collaboration,
+                  where teachers and students built a fully functional arcade
+                  with working games.
                 </li>
                 <li className="subText pb-2 text-xs md:text-xl text-left">
-                  - Responsibilities include setting up a database using
-                  Beekeeper and PostgreSQL, linking back-end with front-end
-                  utilizing Express and Node.js, and creating the UI with
-                  Bootstrap and vanilla CSS.
+                  - Scrum master in a team of 3, tasked with building Tetris. We
+                  utilized React and Redux to build a working game board that
+                  stores the users movement, piece placement, and score.
                 </li>
                 <li className="subText text-xs md:text-xl text-left">
-                  - Built with HTML, CSS/BootStrap, Javascript, Express,
-                  Node.js, and PostgreSQL.
-                </li>
-              </ul>
-              <div className="grid grid-cols-4 gap-4">
-                <a
-                  href="https://github.com/CCaressimo/Kanye-Meme"
-                  target="_blank"
-                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
-                >
-                  Advice from Kanye
-                </a>
-                <p className="subText text-s md:text-2xl text-left px-6 text-right">
-                  April 2021
-                </p>
-              </div>
-              <ul className="px-6 md:py-6 py-2 md:pb-12 pb-4">
-                <li className="subText pb-2 text-xs md:text-xl text-left">
-                  - Lead developer in a team of 2, creating a Kanye meme
-                  generator utilizing the Kanye quotes API, and Flickr API for
-                  images.
-                </li>
-                <li className="subText pb-2 text-xs md:text-xl text-left">
-                  - Responsibilities include learning how to utilize 2 API’s and
-                  how to navigate through documentation on how to use said
-                  API’s, and building the UI with Tailwind CSS.
-                </li>
-                <li className="subText text-xs md:text-xl text-left">
-                  - Built with HTML, Tailwind CSS, JavaScript, and jQuery.
+                  - Built with React, Redux, and vanilla CSS.
                 </li>
               </ul>
               <div className="grid grid-cols-4 gap-4">
@@ -159,6 +129,36 @@ export default function Resume() {
                   - Learned React, Router-dom and Tailwind CSS through
                   Self-study to build this project using technologies before
                   course scope.
+                </li>
+              </ul>
+              <div className="grid grid-cols-4 gap-4">
+                <a
+                  href="https://github.com/CCaressimo/Mixafy"
+                  target="_blank"
+                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
+                >
+                  Mixafy
+                </a>
+                <p className="subText text-s md:text-2xl text-left px-6 text-right">
+                  May 2021
+                </p>
+              </div>
+              <ul className="px-6 md:py-6 py-2">
+                <li className="subText pb-2 text-xs md:text-xl text-left">
+                  - Lead developer in a team of 2, creating an application that
+                  allows the user to generate random playlists between selected
+                  genres or one specific genre from a database of handpicked
+                  songs from Spotify.
+                </li>
+                <li className="subText pb-2 text-xs md:text-xl text-left">
+                  - Responsibilities include setting up a database using
+                  Beekeeper and PostgreSQL, linking back-end with front-end
+                  utilizing Express and Node.js, and creating the UI with
+                  Bootstrap and vanilla CSS.
+                </li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Built with HTML, CSS/BootStrap, Javascript, Express,
+                  Node.js, and PostgreSQL.
                 </li>
               </ul>
             </div>
