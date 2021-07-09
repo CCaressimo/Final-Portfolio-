@@ -13,4 +13,9 @@
 * npm i 
 * npm start
 
+## Instructions:
+
+* use The Nav bar or Follow the buttons on the bottom of each page to move to the next page.
+* Github/LinkedIn and hyperlinked project titles on the resume page open up a new tab.
+
 ## Feel free to utilize my Portfolio as a template for your own work!
