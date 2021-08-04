@@ -9,6 +9,7 @@ import tictactoe from "../images/tictactoe.gif"
 import kanye from "../images/kanyememe.gif"
 import mixafy from "../images/mixafy.gif";
 import tetris from "../images/tetris.gif"
+import retro from "../images/retro.gif"
 
 export default function Projects() {
   return (
@@ -40,19 +41,40 @@ export default function Projects() {
             </div>
 
             <div className="flex flex-wrap justify-between pt-8">
-              {/* prefill for final projects */}
-
-              {/* <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+              <div className="w-full p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="flex flex-wrap no-underline hover:no-underline">
-                    <img src="#" className="h-64 w-full rounded-t pb-6" />
+                    <a
+                      href="https://www.youtube.com/watch?v=zqQFv35olns&list=UUG0zw2U922TTxYrYslzQr0w&index=1"
+                      target="_blank"
+                      className="h-64 w-full rounded-t pb-6"
+                    >
+                      <img src={retro} className="h-64 w-full rounded-t pb-6" />
+                    </a>
+                    <h3 className="subText text-xs text-center px-6 pb-6">
+                      *Click the image to watch our presentation!*
+                    </h3>
                     <div className="headerText text-center w-full font-bold shadow-inner text-3xl px-6 pb-6">
-                      Capstone
+                      Retro Flix-N-Fares
                     </div>
-                    <p className="subText text-xl text-base px-6 mb-5"></p>
+                    <p className="subText text-xl text-base px-6 mb-5">
+                      This is the first iteration of an idea that was born
+                      during quarantine. Our current
+                      app takes the choice paralysis and time from searching for
+                      your favorite nostalgic favorites across streaming
+                      services. The app in its current iteration allows a user
+                      to create an account, select current streaming services,
+                      genre,and the type of feature (movie or TV series).Retro
+                      Flix-n-Fares returns 5 selections based on the criteria
+                      along with suggested food and drink to enjoy with your
+                      feature.
+                      <br />
+                      Retro Flix-n-Fares was built with React, PostgreSQL,
+                      Express, JavaScript, Node.js, and TailwindCSS.
+                    </p>
                     <div className="w-full flex justify-center pb-4 content-center">
                       <a
-                        href="https://github.com/CCaressimo"
+                        href="https://github.com/CCaressimo/cap_stone"
                         target="_blank"
                         className="pr-4"
                       >
@@ -60,7 +82,10 @@ export default function Projects() {
                           GitHub
                         </button>
                       </a>
-                      <a href="#" target="_blank">
+                      <a
+                        href="https://retro-flixnfares-capstone.herokuapp.com"
+                        target="_blank"
+                      >
                         <button className="headerText navButton py-2 px-4 border border-gray-200 rounded shadow">
                           Live App
                         </button>
@@ -68,7 +93,7 @@ export default function Projects() {
                     </div>
                   </a>
                 </div>
-              </div>*/}
+              </div>
               <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                 <div className="flex-1 cardBg border-2 border-black rounded-t rounded-b overflow-hidden shadow-lg">
                   <a className="flex flex-wrap no-underline hover:no-underline">

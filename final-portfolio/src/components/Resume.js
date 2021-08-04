@@ -79,6 +79,38 @@ export default function Resume() {
               </h3>
               <div className="grid grid-cols-4 gap-4">
                 <a
+                  href="https://github.com/CCaressimo/cap_stone"
+                  target="_blank"
+                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
+                >
+                  Retro FlixNFares
+                </a>
+                <p className="subText text-s md:text-2xl text-left px-6 text-right">
+                  July 2021
+                </p>
+              </div>
+              <ul className="px-6 md:py-6 py-2 md:pb-12 pb-4">
+                <li className="subText pb-2 text-xs md:text-xl text-left">
+                  - Scrum master in a team of 3, creating an application that
+                  allows users to filter through movies and TV series from the
+                  70’s to 00’s by selecting what streaming source they are using
+                  and by genre. In addition, there will be some selected “Fares”
+                  from that time period that fit well by the genre they have
+                  selected!
+                </li>
+                <li className="subText pb-2 text-xs md:text-xl text-left">
+                  - Responsibilities include managing the team’s trello board,
+                  developing and designing the UI and theme of the app, setting
+                  up the front-end routes, and setting up the fetch calls to
+                  pull data from our database.
+                </li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Built with React, PostgreSQL, Express, JavaScript, Node.js,
+                  and TailwindCSS.
+                </li>
+              </ul>
+              <div className="grid grid-cols-4 gap-4">
+                <a
                   href="https://github.com/CCaressimo/Tetris-app"
                   target="_blank"
                   className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
@@ -102,33 +134,6 @@ export default function Resume() {
                 </li>
                 <li className="subText text-xs md:text-xl text-left">
                   - Built with React, Redux, and vanilla CSS.
-                </li>
-              </ul>
-              <div className="grid grid-cols-4 gap-4">
-                <a
-                  href="https://github.com/CCaressimo/Final-Portfolio-"
-                  target="_blank"
-                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
-                >
-                  Portfolio
-                </a>
-                <p className="subText text-s md:text-2xl text-left px-6 text-right">
-                  June 2021
-                </p>
-              </div>
-              <ul className="px-6 md:py-6 py-2 md:pb-12 pb-4">
-                <li className="subText pb-2 text-xs md:text-xl text-left">
-                  - Solo project for graduation to showcase myself, my projects,
-                  and experience during my time at DigitalCrafts.
-                </li>
-                <li className="subText pb-2 text-xs md:text-xl text-left">
-                  - Built from scratch using React, Router-dom, Tailwind CSS,
-                  and basic animations with Framer-motion.
-                </li>
-                <li className="subText text-xs md:text-xl text-left">
-                  - Learned React, Router-dom and Tailwind CSS through
-                  Self-study to build this project using technologies before
-                  course scope.
                 </li>
               </ul>
               <div className="grid grid-cols-4 gap-4">
@@ -193,8 +198,10 @@ export default function Resume() {
               </div>
               <ul className="px-6 md:py-6 py-2">
                 <li className="subText text-xs md:text-xl text-left">
-                  - Taught kids ages 6-18 and kids that special needs drums,
-                  sheet reading, and assisted in live show production.
+                  - Taught children ages 6-18, and special needs children.
+                  Lessons included: fundamental to professional level skills,
+                  reading, writing, and play from sheet music, and full band
+                  performances.
                 </li>
                 <li className="subText text-xs md:text-xl text-left">
                   - Developed teaching, team building, and leadership skills.

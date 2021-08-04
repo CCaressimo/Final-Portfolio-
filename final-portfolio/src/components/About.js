@@ -31,21 +31,21 @@ export default function About() {
               </div>
               <div className="md:w-1/2 px-6">
                 <p className="subText text-base md:text-2xl text-gray-100 mb-8 text-left md:text-left">
-                  Hey, my name is Christopher Caressimo. I'm a
-                  musician-turned-full Stack Developer from Franklin Square, New
-                  York. I'm a Nassau Community college Alumnus, graduating with an
-                  Associates in Arts and Science.
+                  I'm a musician and Full Stack Developer based in New York. I
+                  have an Associates in Arts and Science, and recently obtained
+                  my certificate for Full Stack Web Development.
                   <br />
-                  <br />I am really big into video games, anything automotive,
+                  <br />
+                  I am really big into video games, anything automotive,
                   Mythology; specifically Norse Mythology, and also music!
                 </p>
               </div>
             </div>
             <div className="mb-4 p-6 text-left md:text-left">
               <p className="subText text-base md:text-2xl text-gray-100">
-                You'll often find me playing survival horror and mil sim
-                games, tinkering and driving my 07 WRX, or writing and goofing
-                around with my band mates on my free time.
+                You'll often find me playing survival horror and mil sim games,
+                tinkering and driving my 07 WRX, or writing and goofing around
+                with my band mates on my free time.
                 <br />
                 <br />I have an obsession with trying to figure out how things
                 work and developing new skills, that's how I fell into coding.
@@ -63,27 +63,28 @@ export default function About() {
             <div className="mb-4 p-6 text-left md:text-left">
               <p className="subText text-base md:text-2xl text-gray-100">
                 As I was growing up, I had a few family members and friends that
-                are in the tech field who brought up the idea of going into this field.
-                Although the idea of working in the tech field
-                was cool, at the time I was already going to school for Nuclear
-                Medicine which didn't work out in the long run. My goal then was
-                to get out with a basic degree and focus my time and energy on
-                my musical career.
+                are in the tech field who brought up the idea of going into this
+                field. Although the idea of working in the tech field was cool,
+                at the time I was already going to school for Nuclear Medicine
+                which didn't work out in the long run. My goal then was to get
+                out with a basic degree and focus my time and energy on my
+                musical career.
                 <br />
                 <br />A year or so later, my best friend/band mate was planning
-                on joining a coding bootcamp and was insisting me to go
-                through the course with him. I was interested but felt that the
-                time wasn't right for me. All most a year later, the Pandemic hit, 
-                which left me out of work, and plenty of time to develope a new skill.
-                I decided to give coding one last shot, and it felt like this was the 
-                right time to dedicate myself to this field. I took a leap of faith and enrolled into
-                DigitalCraft's part-time Full stack program!
+                on joining a coding bootcamp and was insisting me to go through
+                the course with him. I was interested but felt that the time
+                wasn't right for me. All most a year later, the Pandemic hit,
+                which left me out of work, and plenty of time to develope a new
+                skill. I decided to give coding one last shot, and it felt like
+                this was the right time to dedicate myself to this field. I took
+                a leap of faith and enrolled into DigitalCraft's part-time Full
+                stack program!
               </p>
             </div>
           </div>
 
           <br />
-          
+
           <div className="relative containerBg border border-gray-400 rounded-t rounded-b px-4 md:px-0 max-w-6xl mx-auto">
             <h1 className="headerText my-4 p-6 text-3xl md:text-5xl font-bold text-center md:text-center">
               Why coding?
@@ -94,17 +95,17 @@ export default function About() {
               </div>
               <div className="md:w-1/2 px-6">
                 <p className="subText text-base md:text-2xl text-gray-100 mb-8 text-left md:text-left">
-                  As I stated, I have friends and family that are in the industry, and
-                  during the pandemic, it led me to really consider my options
-                  and future opportunities that would be practical for the long
-                  term.
+                  As I stated, I have friends and family that are in the
+                  industry, and during the pandemic, it led me to really
+                  consider my options and future opportunities that would be
+                  practical for the long term.
                   <br />
                   <br />
                   During the shut down, I dedicated multiple hours a day
-                  learning the basics in HTML, CSS, and Javascript through 
-                  freecodeacademy, and codecademy. I struggled on my own,
-                  but I stuck through the process until I either gave up or decided if I wanted to
-                  advance my skills in coding. Which it was!
+                  learning the basics in HTML, CSS, and Javascript through
+                  freecodeacademy, and codecademy. I struggled on my own, but I
+                  stuck through the process until I either gave up or decided if
+                  I wanted to advance my skills in coding. Which it was!
                 </p>
               </div>
             </div>
