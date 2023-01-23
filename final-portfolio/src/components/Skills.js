@@ -14,15 +14,19 @@ import react from "../images/react.png";
 import redux from "../images/redux-logo-svg-vector.svg";
 import bootstrap from "../images/Bootstrap_logo.svg.png";
 import tailwind from "../images/tailwind-css-logo.svg";
-
+import kube from "../images/kube.png"
+import aws from "../images/aws.png"
+import jenkins from "../images/jenkins.png"
+import docker from "../images/docker.png"
+import python from "../images/python.png"
+import java from "../images/java.png"
 
 export default function Skills() {
   return (
     <motion.div
       initial={{ opacity: 0.7 }}
       animate={{ opacity: 1 }}
-      exit={{ opacity: 0.4 }}
-    >
+      exit={{ opacity: 0.4 }}>
       <main>
         <img
           src={image}
@@ -45,49 +49,6 @@ export default function Skills() {
                   </p>
                 </div>
               </div>
-
-              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
-                <img src={html} alt="" />
-                <p className="text-center text-l md:text-2xl subText">
-                  HTML5/CSS/JS
-                </p>
-              </div>
-              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
-                <img src={git} alt="" />
-                <p className="text-center text-l md:text-2xl subText">Github</p>
-              </div>
-              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
-                <img src={node} alt="" />
-                <p className="text-center text-l md:text-2xl subText">
-                  Node.js
-                </p>
-              </div>
-              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
-                <img src={jQuery} alt="" />
-                <p className="text-center text-l md:text-2xl subText">jQuery</p>
-              </div>
-              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
-                <img src={express} alt="" />
-                <p className="text-center text-l md:text-2xl subText">
-                  Express.js
-                </p>
-              </div>
-              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
-                <img src={sql} alt="" />
-                <p className="text-center text-l md:text-2xl subText">SQL</p>
-              </div>
-              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
-                <img src={sequelize} alt="" />
-                <p className="text-center text-l md:text-2xl subText">
-                  Sequelize
-                </p>
-              </div>
-              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
-                <img src={postgres} alt="" />
-                <p className="text-center text-l md:text-2xl subText">
-                  Postgres
-                </p>
-              </div>
               <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
                 <img src={react} alt="" />
                 <p className="text-center text-l md:text-2xl subText">React</p>
@@ -108,6 +69,77 @@ export default function Skills() {
                   Tailwind
                 </p>
               </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={html} alt="" />
+                <p className="text-center text-l md:text-2xl subText">
+                  HTML5/CSS/JS
+                </p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={python} alt="" />
+                <p className="text-center text-l md:text-2xl subText">Python</p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={java} alt="" />
+                <p className="text-center text-l md:text-2xl subText">Java</p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={git} alt="" />
+                <p className="text-center text-l md:text-2xl subText">Github</p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={jenkins} alt="" />
+                <p className="text-center text-l md:text-2xl subText">
+                  Jenkins
+                </p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={node} alt="" />
+                <p className="text-center text-l md:text-2xl subText">
+                  Node.js
+                </p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={jQuery} alt="" />
+                <p className="text-center text-l md:text-2xl subText">jQuery</p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={express} alt="" />
+                <p className="text-center text-l md:text-2xl subText">
+                  Express.js
+                </p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={kube} alt="" />
+                <p className="text-center text-l md:text-2xl subText">
+                  Kubernetes
+                </p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={docker} alt="" />
+                <p className="text-center text-l md:text-2xl subText">Docker</p>
+              </div>
+
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={aws} alt="" />
+                <p className="text-center text-l md:text-2xl subText">AWS</p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={sql} alt="" />
+                <p className="text-center text-l md:text-2xl subText">SQL</p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={sequelize} alt="" />
+                <p className="text-center text-l md:text-2xl subText">
+                  Sequelize
+                </p>
+              </div>
+              <div className="w-1/3 md:w-1/6 p-6 inline-block md:m-24">
+                <img src={postgres} alt="" />
+                <p className="text-center text-l md:text-2xl subText">
+                  Postgres
+                </p>
+              </div>
             </div>
           </div>
           <div className="px-6 mx-auto items-center">
@@ -116,8 +148,7 @@ export default function Skills() {
                 <div className="text-center py-6">
                   <NavLink
                     to="/resume"
-                    className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
-                  >
+                    className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow">
                     Resume
                   </NavLink>
                 </div>

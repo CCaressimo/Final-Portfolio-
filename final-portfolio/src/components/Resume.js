@@ -8,8 +8,7 @@ export default function Resume() {
     <motion.div
       initial={{ opacity: 0.7 }}
       animate={{ opacity: 1 }}
-      exit={{ opacity: 0.4 }}
-    >
+      exit={{ opacity: 0.4 }}>
       <main>
         <img
           src={image}
@@ -36,8 +35,41 @@ export default function Resume() {
               </h3>
               <ul className="px-6 md:py-6 py-2">
                 <li className="subText text-xs md:text-xl text-left">
-                  - HTML, CSS, JavaScript, Github, Node.js, Express.js, SQL,
-                  Sequelize, React, Redux, Bootstrap, and Tailwindcss.
+                  - DevOps (Kubernetes, Docker, AWS, Git, Jenkins), Javascript
+                  (NodeJS ReactJS, jQuery) SQL (MySQL, PostgreSQL, NoSQL)
+                  HTML5/CSS (Bootstrap, TailwindCSS), Python, Java
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
+                Professional Work Experience:
+              </h3>
+              <div className="grid grid-cols-4 gap-4">
+                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
+                  JP Morgan Chase & Co. | Software Engineer | New York, NY
+                </p>
+                <p className="subText text-s md:text-2xl text-left px-6 text-right">
+                  October 2021 – Present
+                </p>
+              </div>
+              <ul className="px-6 md:py-6 py-2">
+                <li className="subText text-xs md:text-xl text-left">
+                  - Maintained and migrated our Digital Assistant app to new
+                  Data Centers.
+                </li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Orchestrated monthly releases, and post release testing and
+                  monitoring.
+                </li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Aided in DevOps related roles such as config changes,
+                  updating and migrating to password-less credentials, and
+                  certificate renewals.
+                </li>
+                <li className="subText text-xs md:text-xl text-left">
+                  - Collaborated with multiple teams to migrate to using AWS
+                  OMNI S3
                 </li>
               </ul>
             </div>
@@ -81,8 +113,7 @@ export default function Resume() {
                 <a
                   href="https://github.com/CCaressimo/cap_stone"
                   target="_blank"
-                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
-                >
+                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4">
                   Retro FlixNFares
                 </a>
                 <p className="subText text-s md:text-2xl text-left px-6 text-right">
@@ -113,8 +144,7 @@ export default function Resume() {
                 <a
                   href="https://github.com/CCaressimo/Tetris-app"
                   target="_blank"
-                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
-                >
+                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4">
                   Dev Arcade
                 </a>
                 <p className="subText text-s md:text-2xl text-left px-6 text-right">
@@ -140,8 +170,7 @@ export default function Resume() {
                 <a
                   href="https://github.com/CCaressimo/Mixafy"
                   target="_blank"
-                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4"
-                >
+                  className="resText underline text-s md:text-2xl text-left px-6 col-span-3 h-4">
                   Mixafy
                 </a>
                 <p className="subText text-s md:text-2xl text-left px-6 text-right">
@@ -167,66 +196,6 @@ export default function Resume() {
                 </li>
               </ul>
             </div>
-            <div>
-              <h3 className="headerText p-6 text-md md:text-3xl font-bold text-left ">
-                Professional Work Experience:
-              </h3>
-              <div className="grid grid-cols-4 gap-4">
-                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
-                  First Student | School Bus Driver | Freeport, NY
-                </p>
-                <p className="subText text-s md:text-2xl text-left px-6 text-right">
-                  August 2019 – Present
-                </p>
-              </div>
-              <ul className="px-6 md:py-6 py-2">
-                <li className="subText text-xs md:text-xl text-left">
-                  - Drove for grades k-12th and BOCES in Nassau and Suffolk
-                  county.
-                </li>
-                <li className="subText text-xs md:text-xl text-left">
-                  - Developed better time management and communication skills.
-                </li>
-              </ul>
-              <div className="grid grid-cols-4 gap-4">
-                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
-                  School Of Rock | Drum Instructor | Rockville Center, NY
-                </p>
-                <p className="subText text-s md:text-2xl text-left px-6 text-right">
-                  August 2019 – March 2020
-                </p>
-              </div>
-              <ul className="px-6 md:py-6 py-2">
-                <li className="subText text-xs md:text-xl text-left">
-                  - Taught children ages 6-18, and special needs children.
-                  Lessons included: fundamental to professional level skills,
-                  reading, writing, and play from sheet music, and full band
-                  performances.
-                </li>
-                <li className="subText text-xs md:text-xl text-left">
-                  - Developed teaching, team building, and leadership skills.
-                </li>
-              </ul>
-              <div className="grid grid-cols-4 gap-4">
-                <p className="subText text-s md:text-2xl text-left px-6 col-span-3 h-4">
-                  New York Community Bank | Financial Service Assistant |
-                  Hicksville, NY
-                </p>
-                <p className="subText text-s md:text-2xl text-left px-6 text-right">
-                  August 2016 – August 2019
-                </p>
-              </div>
-              <ul className="px-6 md:py-6 py-2">
-                <li className="subText text-xs md:text-xl text-left">
-                  - Conducted traditional bank transactions, wires, foreign
-                  currency transactions, and set up customer accounts.
-                </li>
-                <li className="subText text-xs md:text-xl text-left">
-                  - Developed communication, team building, customer service,
-                  sales, and money management skills
-                </li>
-              </ul>
-            </div>
           </div>
 
           <div class="px-6 mx-auto items-center">
@@ -236,14 +205,12 @@ export default function Resume() {
                   <svg
                     class="fill-current w-4 h-4 mr-2"
                     xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                  >
+                    viewBox="0 0 20 20">
                     <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
                   </svg>
                   <a
                     href="https://docs.google.com/document/d/1Mzq9SeRTY39ed-Ze_G_Oqxrq4E99GVdJ_hZeBq0SXVk/edit?usp=sharing"
-                    target="_blank"
-                  >
+                    target="_blank">
                     Download
                   </a>
                 </button>
@@ -257,8 +224,7 @@ export default function Resume() {
                 <div className="text-center py-6">
                   <NavLink
                     to="/contact"
-                    className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow"
-                  >
+                    className="headerText nextButton text-2xl py-2 px-4 border border-gray-200 rounded shadow">
                     Contact
                   </NavLink>
                 </div>
